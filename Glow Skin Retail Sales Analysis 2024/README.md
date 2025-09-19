@@ -57,9 +57,8 @@ Table 3: Includes product details i.e product name and type, and inventory.
 ## Overview of Findings
 Key Findings
 1) Sales & Profitability Snapshot
-- Total Sales recorded: KES 782,695.
-- Total Cost of Goods Sold (COGS): KES 864,850.
-- Net Loss: KES 82,155, driven primarily by high refund rates.
+- Total Sales recorded: KES 864,850.
+- Net Sales: KES 575,205.
 
 2) Critical Refund & Pending Orders Issue
 - Refunded Orders: 33.47% of total.
@@ -73,7 +72,8 @@ Key Findings
 - The Power BI link: [Glow Skin Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWJjNjU4ZDItYWZjNy00OThjLTljYjAtOWI1ZWUxZTUzNGUzIiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9)
 
 
-![glow1](https://github.com/user-attachments/assets/962b37a7-e1b9-4d2f-a59c-b67f5dfad3fa)
+![gs1](https://github.com/user-attachments/assets/103660f9-f1b9-4c49-9a0f-9dbf191c765d)
+
 
 
 
@@ -91,7 +91,8 @@ Key Findings
 - Daily orders average between 100-130 orders/day, with slight peaks towards month-ends.
 - Indicates potential impact of marketing campaigns or seasonal buying behavior.
 
-![glow2](https://github.com/user-attachments/assets/e729cb09-feaf-44bd-a8d5-0d29fbfff9a0)
+![gs2](https://github.com/user-attachments/assets/b6617126-c3b7-4055-8ff4-942023050a3d)
+
 
 
 
@@ -113,7 +114,7 @@ Key Findings
 
 
 
-![glow3](https://github.com/user-attachments/assets/764d8df3-e67c-445f-af71-2797a210a1c9)
+![gs3](https://github.com/user-attachments/assets/070a39bd-7363-4977-a1ae-aaaaa1d6b2b7)
 
 
 # Recommendations:

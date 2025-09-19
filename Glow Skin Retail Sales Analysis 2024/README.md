@@ -7,33 +7,26 @@ Insights are delivered to operations and product managers.
 
 Insights and recommendations are provided on the following key areas:
 
-1️⃣ What is the overall financial health of GlowSkin’s e-commerce business?
-- What are the total sales, refunds?
-- What is the relationship between Total Sales?
+1️⃣ How many customers and total sales have we generated so far?
+- What is the average order cost across all customers?
+- What percentage of total orders end up refunded vs. paid or pending?
+- Which products drive the highest order costs overall?
+- Which sales channel (Online Store, Mobile App, Instagram, Facebook Shop) contributes the most orders?
+- How much net sales do we retain after accounting for refunds?
 
-2️⃣ How are customer payments progressing across Paid, Refunded, and Pending statuses?
-- What percentage of orders are successfully paid?
-- How significant are refund and pending orders in relation to total sales volume?
-- What is the monetary impact of refunds on overall revenue?
+2️⃣ How does refund loss vary by day across different sales channels?
+- What is the month-over-month trend in sales and refunds? Are refunds decreasing or increasing?
+- Which channel generates the highest sales revenue?
+- Which products are ordered the most in terms of volume?
+- How do refunds affect net sales sustainability across months?
+- Are some sales channels more prone to refunds than others?
 
-3️⃣ Which products are contributing most to sales volume and costs?
-- Which products have the highest order quantities?
-- Which products are driving the highest Sales?
-
-4️⃣ Which digital sales channels are driving orders and revenue?
-- What is the distribution of sales across Online Store, Mobile App, Instagram, and Facebook Shop?
-- Is any channel performing significantly better or worse in terms of orders or revenue?
-- Are refunds more prevalent in certain channels?
-
-5️⃣ How are sales and operational costs trending over time?
-- Are there monthly or daily patterns in order volumes?
-- Which months had the highest operational costs (COGS)?
-- Are there visible sales spikes during certain periods (e.g., month-end promotions)?
-
-6️⃣ What is the current state of product inventory?
-- Which products are overstocked, and which are at risk of stock-outs?
-- What is the current inventory distribution across product types (e.g., Night Creams, Serums, Moisturizers)?
-- How aligned is inventory with sales demand?
+3️⃣ What is our current total inventory and its total cost?
+- How quickly is inventory turning over (turnover rate)?
+- How many days of inventory do we currently have on hand (DOH)?
+- Which products have the highest inventory costs, and which have the lowest?
+- Which products make up the bulk of inventory units in stock?
+- Is there a risk of stockouts (low inventory items like Glow Moisturizer), and should we prioritize replenishment?
 
 I used Google Sheets and Power Query to clean the data.
 I created new measure columns using Power BI.
@@ -54,21 +47,15 @@ Table 3: Includes product details i.e product name and type, and inventory.
 # Executive Summary
 
 ## Overview of Findings
-Key Findings
-1) Sales & Profitability Snapshot
-- Total Sales recorded: KES 864,850.
-- Net Sales: KES 575,205.
-- Average Order Cost: KES 86.49.
-- Money lost to refunds(Refund Loss): 289,645.
+Key Findings:
 
-2) Critical Refund & Pending Orders Issue
-- Refunded Orders: 33.49% of total.
-- Pending Orders: 33.02% of total.
-- Combined, 66.5% of all transactions are not finalized sales, severely impacting cash flow and profitability.
+- The business has 3,000 customers and generated Ksh 864,850 in total sales, but 33.5% of transactions were refunded.
+- Refund losses account for Ksh 289,645 (33.5%) of sales, significantly impacting profitability.
+- Net Sales after refunds stand at Ksh 575,205, showing refunds as the main barrier to profitability.
+- The average order cost is Ksh 86.49, which provides a useful benchmark for customer spending patterns.
+- Night Repair Cream is the highest cost driver (Ksh 425,165), far ahead of other products like Sunscreen SPF 50 (Ksh 206,365).
+- Sales channels are performing evenly, with the Online Store (2,531), Mobile App (2,505), Instagram (2,487), and Facebook Shop (2,477) showing similar order volumes. This suggests balanced multi-channel presence.
 
-3) Cost of Goods Sold (COGS) Concentrated in Key Products
-- Night Repair Cream (KES 425,165) and Sunscreen SPF 50 (KES 206,365) are the top COGS contributors.
-- High COGS in these products requires profitability assessment relative to their refund rates.
   
 - The Power BI link: [Glow Skin Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWJjNjU4ZDItYWZjNy00OThjLTljYjAtOWI1ZWUxZTUzNGUzIiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9)
 
@@ -78,41 +65,27 @@ Key Findings
 
 
 
-## Sales Channels & Product Performance Analysis
+## Orders Overview
+- Refund losses fluctuate daily across channels, with spikes that may indicate product or channel-specific issues.
+- Sales peaked in May (Ksh 300,610) and June (Ksh 288,985), but refunds remained consistently high (~Ksh 95K each month).
+- Refund losses represent roughly one-third of monthly sales, which could signal quality, logistics, or customer experience challenges.
+- The Online Store leads in sales (Ksh 220,905), followed closely by Mobile App, Instagram, and Facebook Shop — again confirming channel parity.
+- By volume, Night Repair Cream (11,953 orders) and Sunscreen SPF 50 (9,071 orders) dominate sales, making them critical revenue drivers.
+- Other products like Vitamin C Serum and Glow Moisturizer contribute far less in orders, suggesting skewed product performance.
 
-1) Even Distribution Across Digital Sales Channels
-- Online Store, Mobile App, Instagram, and Facebook Shop each contribute roughly 25% of order volume.
-- No dominant channel, but without channel-wise refund analysis, profitability per channel is unclear.
-
-2) Top-Selling Products by Quantity
-- Night Repair Cream leads with 11,953 units sold, followed by Sunscreen SPF 50 (9,071 units).
-- Vitamin C Serum and Glow Moisturizer contribute smaller volumes but need profitability mapping.
-
-3) Order Patterns Show Consistent Daily Sales
-- Daily orders average between 100-130 orders/day, with slight peaks towards month-ends.
-- Indicates potential impact of marketing campaigns or seasonal buying behavior.
 
 ![gs2](https://github.com/user-attachments/assets/b6617126-c3b7-4055-8ff4-942023050a3d)
 
 
 
 
-## Refund Impact, Revenue Breakdown & Inventory Management
-1) Refund Loss Severely Impacting Revenue
-- KES 289,645 lost due to refunds, accounting for 33.49% of total sales.
-- Refunds are a significant driver of GlowSkin’s overall loss position.
-
-2) Revenue Evenly Distributed by Channel
-- Online Store: KES 220,905, Mobile App: KES 215,310, Instagram: KES 214,510, Facebook Shop: KES 214,125.
-- Revenue spread is balanced, but channel-specific refund data is missing for deeper profitability insights.
-
-3) Inventory at Risk of Imbalance
-- Night Repair Cream (482 units) and Sunscreen SPF 50 (472 units) dominate inventory.
-- Glow Moisturizer is near stock-out (39 units), risking lost sales opportunities.
-
-4) Product Type Distribution
-- Inventory heavily skewed towards Night Cream (40%) and Sunscreen (30%), with less stock allocated to Serums and Moisturizers.
-
+## Products Overview
+- Current inventory levels stand at 1,178 units, with a total inventory cost of Ksh 33,340.
+- Inventory turnover is high (25.94), indicating products are moving quickly, and Days of Inventory on Hand (DOH) is only 3.47, suggesting lean stock levels.
+- The highest inventory costs are tied to Night Repair Cream (Ksh 16,325) and Sunscreen SPF 50 (Ksh 10,825), aligning with their role as top sellers.
+- Inventory units are concentrated in Night Repair Cream (482 units) and Sunscreen SPF 50 (472 units), with smaller quantities for Vitamin C Serum (185) and Glow Moisturizer (39).
+- Glow Moisturizer has critically low stock (39 units) — this may lead to stockouts, affecting future sales.
+- Overall, stock is balanced for top sellers but weak for lower-volume items, signaling the need for smarter replenishment planning.
 
 
 ![gs3](https://github.com/user-attachments/assets/070a39bd-7363-4977-a1ae-aaaaa1d6b2b7)
@@ -120,17 +93,17 @@ Key Findings
 
 # Recommendations:
 Based on the insights and findings above, we would recommend the MARKETING TEAM to consider the following:
-
-- Initiate Refund Reduction Strategy: Conduct a root-cause analysis of refunded and pending orders to identify and fix operational gaps.
-- Product Profitability Assessment: Evaluate margins for high-cost products to determine pricing adjustments or cost-saving measures.
-- Improve Payment Process Efficiency: Implement measures to reduce pending order lag, such as follow-up automation or payment incentives.
-- Channel Profitability Analysis: Assess refund rates and net margins per channel to guide promotional and budget allocation.
-- Product Mix Strategy: Focus on high-demand, profitable SKUs while evaluating underperforming products for bundling or phase-out.
-- Enhance End-of-Month Campaigns: Leverage observed order peaks by running targeted promotions or limited-time offers.
-- Refund Mitigation Action Plan: Target a 10-15% reduction in refund loss over the next quarter through customer service enhancement, quality checks, and return policy review.
-- Stock Rebalancing Strategy: Adjust procurement to prevent stock-outs on in-demand items (e.g., Glow Moisturizer) and avoid overstocking low-velocity products.
-- Monitor Inventory Turnover: Set up real-time stock alerts and track inventory turnover ratios to optimize supply chain efficiency.
-- Channel Refund Drill-Down: Identify which sales channels have the highest refund percentages and optimize campaign targeting accordingly.
+- Reduce Refund Rates: Since 33% of transactions are refunded, prioritize investigating refund causes (e.g., product quality, shipping issues, or misaligned customer expectations).
+- Profitability Focus: Net sales are healthy, but refund losses wipe out margin. Introduce stricter return policies or improved quality checks before shipping.
+- Channel Optimization: All four channels are performing evenly, so investment can be distributed across them. However, deeper analysis into channel-specific refunds could reveal hidden inefficiencies.
+- Investigate Refund Peaks: Identify which products and channels cause refund spikes on specific days to address root causes (e.g., supplier delays, payment failures, or faulty items).
+- Seasonal Planning: Sales peaked in May and June. Plan marketing campaigns and stock replenishment ahead of similar high-demand periods.
+- Product Mix Optimization: Night Repair Cream and Sunscreen SPF 50 dominate sales. Introduce bundles, cross-sells, or loyalty discounts on underperforming products (e.g., Glow Moisturizer, Product C Serum) to balance revenue.
+- Channel-Specific Strategy: Even though sales volume is balanced, look at conversion and refund rate per channel to see which channel drives most profitable sales.
+- Prevent Stockouts: Glow Moisturizer has critically low inventory (39 units). Replenish urgently to avoid missed sales.
+- Lean Inventory Management: With DOH at 3.47 and turnover at 25.94, inventory is moving fast. While this is efficient, it also raises the risk of stock shortages. Introduce a safety stock threshold.
+- Replenishment Based on Sales Velocity: Since Night Repair Cream and Sunscreen SPF 50 are top sellers, ensure their stock levels are consistently prioritized to meet demand.
+- Product Rationalization: If lower-selling items continue underperforming, consider reducing their production or marketing budget and reallocating resources to bestsellers.
 
 
 

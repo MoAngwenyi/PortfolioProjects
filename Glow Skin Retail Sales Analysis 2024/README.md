@@ -8,8 +8,8 @@ Insights are delivered to operations and product managers.
 Insights and recommendations are provided on the following key areas:
 
 1️⃣ What is the overall financial health of GlowSkin’s e-commerce business?
-- Are we making a profit or loss?
-- What is the relationship between Total Sales, Cost of Goods Sold (COGS), and Net Profit/Loss?
+- What are the total sales, refunds?
+- What is the relationship between Total Sales?
 
 2️⃣ How are customer payments progressing across Paid, Refunded, and Pending statuses?
 - What percentage of orders are successfully paid?
@@ -17,9 +17,8 @@ Insights and recommendations are provided on the following key areas:
 - What is the monetary impact of refunds on overall revenue?
 
 3️⃣ Which products are contributing most to sales volume and costs?
-- Which SKUs have the highest order quantities?
-- Which products are driving the highest COGS?
-- Are there specific products with high sales but thin or negative profit margins?
+- Which products have the highest order quantities?
+- Which products are driving the highest Sales?
 
 4️⃣ Which digital sales channels are driving orders and revenue?
 - What is the distribution of sales across Online Store, Mobile App, Instagram, and Facebook Shop?

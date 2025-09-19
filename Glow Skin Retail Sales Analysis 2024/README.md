@@ -59,9 +59,11 @@ Key Findings
 1) Sales & Profitability Snapshot
 - Total Sales recorded: KES 864,850.
 - Net Sales: KES 575,205.
+- Average Order Cost: KES 86.49.
+- Money lost to refunds(Refund Loss): 289,645.
 
 2) Critical Refund & Pending Orders Issue
-- Refunded Orders: 33.47% of total.
+- Refunded Orders: 33.49% of total.
 - Pending Orders: 33.02% of total.
 - Combined, 66.5% of all transactions are not finalized sales, severely impacting cash flow and profitability.
 
@@ -84,7 +86,7 @@ Key Findings
 - No dominant channel, but without channel-wise refund analysis, profitability per channel is unclear.
 
 2) Top-Selling Products by Quantity
-- Night Repair Cream leads with 4,008 units sold, followed by Sunscreen SPF 50 (3,070 units).
+- Night Repair Cream leads with 11,953 units sold, followed by Sunscreen SPF 50 (9,071 units).
 - Vitamin C Serum and Glow Moisturizer contribute smaller volumes but need profitability mapping.
 
 3) Order Patterns Show Consistent Daily Sales
@@ -98,7 +100,7 @@ Key Findings
 
 ## Refund Impact, Revenue Breakdown & Inventory Management
 1) Refund Loss Severely Impacting Revenue
-- KES 289,645 lost due to refunds, accounting for 37.01% of total sales.
+- KES 289,645 lost due to refunds, accounting for 33.49% of total sales.
 - Refunds are a significant driver of GlowSkin’s overall loss position.
 
 2) Revenue Evenly Distributed by Channel

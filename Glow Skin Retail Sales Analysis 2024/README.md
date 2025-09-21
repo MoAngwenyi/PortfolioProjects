@@ -57,7 +57,8 @@ Key Findings:
 - Sales channels are performing evenly, with the Online Store (2,531), Mobile App (2,505), Instagram (2,487), and Facebook Shop (2,477) showing similar order volumes. This suggests balanced multi-channel presence.
 
   
-- The Power BI link: [Glow Skin Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWJjNjU4ZDItYWZjNy00OThjLTljYjAtOWI1ZWUxZTUzNGUzIiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9)
+- The Power BI link: [Glow Skin Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYmI4OWM4ODUtMjQ4My00OWE5LTg2YjktMzAwZWMzMzBiMGFjIiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9)
+- 
 
 
 ![gs1](https://github.com/user-attachments/assets/103660f9-f1b9-4c49-9a0f-9dbf191c765d)

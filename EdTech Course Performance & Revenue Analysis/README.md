@@ -37,16 +37,19 @@ The goal was to analyze enrollment behavior, completion rates, revenue trends, a
 - Database has the highest completion rate at 67.44% , followed by Analytics at 66.81% while management has the lowest completion at 54.63%. 
 
 ### 4. Monthly Enrollment Trends
-![Monthly Trends](./screenshots/monthly_trends.png)
-*Insight:* Enrollments peak mid-year, suggesting seasonal demand (possibly linked to academic or professional cycles).
+<img width="232" height="485" alt="pic11" src="https://github.com/user-attachments/assets/30abdb11-d3a2-4331-8aaf-094f01ec26bd" />
+
+- Enrollments peak mid-year, suggesting seasonal demand (possibly linked to academic or professional cycles).
 
 ### 5. Revenue by Course
-![Revenue by Course](./screenshots/revenue_by_course.png)
-*Insight:* A few premium Tech courses drive the majority of revenue despite lower enrollment counts.
+<img width="434" height="211" alt="pic12" src="https://github.com/user-attachments/assets/ee0aa5a1-b283-4481-9efc-9ef9927cf935" />
+
+- Project Management hd the highest revenue at $ 32,400 while Power BI Dashboards at $ 16,050.
 
 ### 6. Price Distribution & Statistics
-![Price Distribution](./screenshots/price_distribution.png)
-*Insight:* Most courses are priced between $50–150. Median price is $95, with some outliers above $300.
+<img width="315" height="69" alt="pic6" src="https://github.com/user-attachments/assets/23c59855-b429-45c1-8931-582fe4391977" />
+
+- Most courses are priced between $150–300. Median price is $200, with some outliers above $300.
 
 ---
 

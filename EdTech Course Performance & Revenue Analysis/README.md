@@ -4,26 +4,29 @@
 Exploratory Data Analysis (EDA) performed using **SQL Server** on an online courses dataset.
 The goal was to analyze enrollment behavior, completion rates, revenue trends, and pricing insights.
 
----
 
 ## 🔍 Steps & Analysis
 
 ### 1. Data Overview
 - Checked total records, duplicates, nulls, and date ranges.
 - Ensured data quality before analysis.
-  ## 🔍 Steps & Analysis
+  
+## 🔍 Steps & Analysis
 
 ### 1. Data Overview
 - Checked total records, duplicates, nulls, and date ranges.
 - Ensured data quality before analysis.
 
 ### 2. Enrollments by Category
-![Enrollments by Category](./screenshots/enrollments_by_category.png)
-*Insight:* Business courses dominate enrollments, but Tech courses have fewer students despite higher prices.
+
+<img width="209" height="159" alt="pic5" src="https://github.com/user-attachments/assets/e0572432-e477-4727-bf13-87028ca4ec49" />
+
+- Analytics and Business Intelligence courses dominate enrollments, but Tech courses have fewer students despite higher prices.
 
 ### 3. Completion Rates per Course
-![Completion Rates](./screenshots/completion_rates.png)
-*Insight:* Some highly enrolled courses have completion rates below 50%, showing potential engagement challenges.
+<img width="319" height="146" alt="pic9" src="https://github.com/user-attachments/assets/217f50e4-1578-4d5a-b34d-b6d80c1b4475" />
+
+- Database has the highest completion rate at 67.44% , followed by Analytics at 66.81% while management has the lowest completion at 54.63%. 
 
 ### 4. Monthly Enrollment Trends
 ![Monthly Trends](./screenshots/monthly_trends.png)

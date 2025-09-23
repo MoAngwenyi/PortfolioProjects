@@ -23,6 +23,7 @@ The goal was to analyze enrollment behavior, completion rates, revenue trends, a
 ### 2.  Data Range of the dataset
 <img width="229" height="70" alt="pic4" src="https://github.com/user-attachments/assets/1e58f890-64de-4310-8d9d-3e2c7ba08cfe" />
 
+- The first enrollment was on 29-07-2023 while the last enrollment was 26-07-2025. 
 
 ### 3. Enrollments by Category
 

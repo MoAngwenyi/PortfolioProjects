@@ -97,7 +97,7 @@ Efficiency:
 
 
 # Recommendations:
-Based on the insights and findings above, we would recommend the Administration/ to consider the following:
+Based on the insights and findings above, I would recommend the Administration and department heads to consider the following:
 1) Improve Outcome Success Rate
 Current success rate (39%) is low.
 Targeted interventions in high-cost departments (Pediatrics, Oncology, Dermatology) could improve patient recovery rates.

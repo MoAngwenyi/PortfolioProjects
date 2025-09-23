@@ -12,27 +12,29 @@ This dashboard is designed to look into:
 - Diagnosis trends
 - Clinical outcomes (e.g., recovery vs. mortality)
 
-## Category 1: Patient Admissions Overview
+## Category 1: Hospital Operations Overview
+Business Questions:
+- How many patients are admitted, and what are the total treatment costs?
+- What is the average treatment cost per patient and average recovery time?
+- How successful are treatments across the hospital (outcome success rate)?
+- Which departments drive the highest costs and longest recovery days?
 
-- What's the total cost of treatment.
-- How many patients were admitted in total and over time i.e.(daily/monthly)?
-- What are the most common departments for admissions?
-- What’s the admission numbers by gender?
 
-## Category 2: Treatment Costs & Diagnosis Breakdown
+## Category 2: Admissions & Patient Demographics
+Business Questions:
+- What is the daily admission trend and average admissions per day?
+- Which patient demographics (age, gender) make up the largest share of admissions?
+- How are admissions distributed across departments?
+- Are there gender differences in admissions across age groups or departments?
 
-- What is the total treatment cost per department?
-- Are certain departments more expensive to treat in?
-- What’s the cost distribution by patient age or gender?
-- How many patients were admitted over time (monthly/weekly)?
-- What’s the age and gender distribution of admitted patients?
 
-## Category 3: Patient Outcomes by Department & Demographics
+## Category 3: Treatment Cost & Diagnosis Analysis
+Business Questions:
+- How much does treatment cost vary across departments and genders?
+- Which age groups incur the highest treatment costs?
+- How do recovery days correlate with treatment costs (efficiency vs inefficiency)?
+- Which departments contribute the most to total treatment costs?
 
-- What are the most common outcomes (e.g. Recovered, Deceased)?
-- Which departments have the highest rate of poor outcomes?
-- Are outcomes linked to age or length of stay?
-- What’s the average length of stay by outcome?
 
 # Data Structure & Initial Checks
 The hospital main database structure as seen below consists of three tables: Admissions,Treatments, and Outcomes with a total row count of 6,000 records. Each table contains the following:

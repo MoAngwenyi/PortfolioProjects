@@ -24,7 +24,7 @@ The goal was to analyze enrollment behavior, completion rates, revenue trends, a
 
 <img width="209" height="159" alt="pic5" src="https://github.com/user-attachments/assets/e0572432-e477-4727-bf13-87028ca4ec49" />
 
-- Analytics and Business Intelligence courses dominate enrollments, but Tech courses have fewer students despite higher prices.
+- Analytics and Business Intelligence courses dominate enrollments while Management is at 108 and Programming at 101 at the bottom of enrollment.
 
 ### 3. Completion Rates per Course
 <img width="319" height="146" alt="pic9" src="https://github.com/user-attachments/assets/217f50e4-1578-4d5a-b34d-b6d80c1b4475" />

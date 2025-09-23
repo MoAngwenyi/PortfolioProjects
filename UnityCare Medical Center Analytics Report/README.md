@@ -50,7 +50,7 @@ The hospital main database structure as seen below consists of three tables: Adm
 - Power BI link: [UnityCareHealth Analytics Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDk3ZDMwNDItYzk0Yi00MzhiLTg4NzUtZDcxZjhhZTU5NmE2IiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9)
 
 
-![hsp1](https://github.com/user-attachments/assets/6dae7854-eacc-4521-aaa9-772e0bcc0cbd)
+![unity1](https://github.com/user-attachments/assets/5c7bc969-8ddd-445a-9c29-4c6473feeb3f)
 
 # Insights Deep Dive
 
@@ -61,10 +61,11 @@ The hospital main database structure as seen below consists of three tables: Adm
 - Emergency and Cardiology departments have the least admission numbers.
   
 
-![hsp2](https://github.com/user-attachments/assets/cdb61c2e-3e20-4260-9b1b-41aaab4fbad4)
+![unity2](https://github.com/user-attachments/assets/ae503f3f-2100-4270-8d02-290c98c6aa18)
 
 # Treatment Cost & Diagnosis Analysis
 ## Age Group Cost Disparity
+
 - Patients aged 71–80  and 81-90 have noticeably higher treatment costs, with an average exceeding $5,500 per patient, correlating with extended recovery durations.
 - Pediatric cases, while high in volume, maintain relatively lower average treatment costs, but resource allocation needs monitoring due to volume strain.
 
@@ -74,7 +75,7 @@ The hospital main database structure as seen below consists of three tables: Adm
 
 
 
-![hsp3](https://github.com/user-attachments/assets/dc4dea76-055e-473e-af8f-a5392d0c7470)
+![unity3](https://github.com/user-attachments/assets/343365d2-c2db-4897-9742-e67e44872214)
 
 # Patient Outcomes by Department & Demographics
 ## Recovery Efficiency Insights

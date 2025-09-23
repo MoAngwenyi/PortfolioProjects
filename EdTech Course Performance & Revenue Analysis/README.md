@@ -9,6 +9,14 @@ The goal was to analyze enrollment behavior, completion rates, revenue trends, a
 
 ### 1. Data Overview
 - Checked total records, duplicates, nulls, and date ranges.
+- Duplicates
+<img width="323" height="90" alt="pic2" src="https://github.com/user-attachments/assets/6d053a9c-deed-4e3e-beb4-1ce16fe6596b" />
+
+- Null Values
+
+<img width="317" height="74" alt="pic3" src="https://github.com/user-attachments/assets/ade0d828-bf82-4853-b321-1be337c8e73e" />
+
+
 - Ensured data quality before analysis.
   
 ## 🔍 Steps & Analysis

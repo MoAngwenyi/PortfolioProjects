@@ -39,7 +39,7 @@ The goal was to analyze enrollment behavior, completion rates, revenue trends, a
 ### 5. Revenue by Course
 <img width="434" height="211" alt="pic12" src="https://github.com/user-attachments/assets/ee0aa5a1-b283-4481-9efc-9ef9927cf935" />
 
-- Project Management hd the highest revenue at $ 32,400 while Power BI Dashboards at $ 16,050.
+- Project Management has the highest revenue at $32,400 while Power BI Dashboards at $16,050.
 
 ### 6. Price Distribution & Statistics
 <img width="315" height="69" alt="pic6" src="https://github.com/user-attachments/assets/23c59855-b429-45c1-8931-582fe4391977" />

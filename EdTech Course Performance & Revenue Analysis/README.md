@@ -18,12 +18,7 @@ The goal was to analyze enrollment behavior, completion rates, revenue trends, a
 
 
 - Ensured data quality before analysis.
-  
-## 🔍 Steps & Analysis
 
-### 1. Data Overview
-- Checked total records, duplicates, nulls, and date ranges.
-- Ensured data quality before analysis.
 
 ### 2. Enrollments by Category
 

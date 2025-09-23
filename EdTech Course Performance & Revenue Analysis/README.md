@@ -1,4 +1,4 @@
-# SQL EDA Project – Online Course Analytics
+# SQL EDA Project – Edtech Course & Revenue Analytics
 
 ## 📘 Project Overview
 Exploratory Data Analysis (EDA) performed using **SQL Server** on an online courses dataset.

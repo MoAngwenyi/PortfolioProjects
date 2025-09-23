@@ -42,11 +42,19 @@ The hospital main database structure as seen below consists of three tables: Adm
 
 ## Overview of Findings
 
-- There are a total of 7 departments
-- 2,000 patients were admitted.
-- The Pediatrics department had the highest cost of treatment at $1,589,707.77.
-- Total cost of treament for all patients was $ 10.34M.
-- Average days of recovery was 10 days.
+- 2000 admissions across 7 departments, with a $10.34M total treatment cost.
+- Average treatment cost per patient: $5,167.85.
+- Average recovery days: 10 days.
+- Outcome success rate: 39% (patients improved or recovered).
+
+Demographics & Outcomes:
+- Gender split: fairly balanced across male (32%), female (35%), and other (33%).
+- Outcomes: ~40% positive (improved or recovered), ~20% unchanged, ~40% worsened or deceased.
+
+Department Performance:
+- Pediatrics, Oncology, and Dermatology are the top 3 cost-intensive departments (>$1.5M each).
+- Recovery days are longest in Pediatrics (11.05) and shortest in Cardiology (9.85).
+
 - Power BI link: [UnityCareHealth Analytics Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDk3ZDMwNDItYzk0Yi00MzhiLTg4NzUtZDcxZjhhZTU5NmE2IiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9)
 
 

@@ -19,7 +19,7 @@ The analysis was performed on three relational tables:
 Prior to this, the company’s data was siloed in multiple CSV files, and there was no consolidated reporting. This project shows how SQL can be used to join disparate data sources, calculate KPIs, and produce actionable insights for business stakeholders.
 
 ## 📂 Files
-- `edtechqueries.sql` - SQL QUERIES
+- `eda_queries.sql` - SQL QUERIES
 
 #  Executive Summary
 The EdTech Learning Platform analysis revealed several actionable trends across course performance, learner engagement, and revenue generation:

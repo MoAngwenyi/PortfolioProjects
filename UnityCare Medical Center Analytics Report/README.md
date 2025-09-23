@@ -64,47 +64,58 @@ Department Performance:
 
 # Admissions & Patient Demographics
 
-- Admissions declined from January 2023 to Jan 2024(163 to 8)
-- Pediatrics, Oncology, and Dermatology collectively account for over 45% of total treatment costs, despite representing a lower proportion of overall patient admissions.
-- Emergency and Cardiology departments have the least admission numbers.
-  
+-2,000 patients admitted, with an average of 5.48 admissions per day.
+- Slightly higher admission fluctuations mid-month (days 10–20).
+
+Demographics:
+- Gender split consistent with Page 1 (balanced).
+- Largest patient groups: 21–30 years (75+) and 31–40 years (70+), showing high demand among young adults.
+- Admissions remain steady across older groups, but gradually decline after 70+.
+
+Department Admissions:
+- Highest admissions: Dermatology (113), Pediatrics (112), and Emergency (102).
+- Gender balance consistent across most departments, no major skew.
+
 
 ![unity2](https://github.com/user-attachments/assets/ae503f3f-2100-4270-8d02-290c98c6aa18)
 
 # Treatment Cost & Diagnosis Analysis
-## Age Group Cost Disparity
+- Total treatment cost distribution per department: Orthopedics ($1.36M), Pediatrics ($1.54M), Oncology ($1.52M), with smaller gaps among departments.
 
-- Patients aged 71–80  and 81-90 have noticeably higher treatment costs, with an average exceeding $5,500 per patient, correlating with extended recovery durations.
-- Pediatric cases, while high in volume, maintain relatively lower average treatment costs, but resource allocation needs monitoring due to volume strain.
+Cost Drivers:
+- Average treatment cost highest in ages 61–70 and 71–80 (~$5K+).
+- Pediatric treatments, despite lower average cost per patient, still drive high total costs due to volume.
 
-## Gender Distribution Patterns
-- Gender distribution across departments is fairly balanced; however, certain departments (e.g., Orthopedics and Cardiology) show a slight male-patient predominance.
-- Treatment cost variations by gender are minimal, indicating no significant bias in cost distribution.
-
+Efficiency:
+- Scatter plot shows treatment costs increase with recovery days, but wide spread indicates inconsistency in cost-effectiveness.
+- Some patients incur high costs even with short recovery days, suggesting inefficiencies or specialized/high-risk cases.
 
 
 ![unity3](https://github.com/user-attachments/assets/343365d2-c2db-4897-9742-e67e44872214)
 
-# Patient Outcomes by Department & Demographics
-## Recovery Efficiency Insights
-- Average recovery days across the hospital remain stable at 10 days, though scatterplot analysis indicates a subset of cases (10–15 days) that disproportionately affect treatment cost figures, especially in Neurology and Oncology.
-
-## Outcome Distribution
-- Recovered and Improved outcomes represent a combined 39% of patient outcomes, while Worsened or Deceased cases total 40%, signaling a critical need for enhanced patient management in high-risk departments.
-
 
 # Recommendations:
 Based on the insights and findings above, we would recommend the Administration/ to consider the following:
+1) Improve Outcome Success Rate
+Current success rate (39%) is low.
+Targeted interventions in high-cost departments (Pediatrics, Oncology, Dermatology) could improve patient recovery rates.
 
-1)Optimize Resource Allocation in High-Cost Departments. Conduct a focused operational audit in Oncology and Pediatrics to streamline treatment workflows and identify cost-saving opportunities without compromising care quality.
+2)Optimize Recovery Days
+Pediatrics recovery (11 days) exceeds other departments. Investigate causes (case complexity vs inefficiencies).
+Standardize best practices from Cardiology (shortest recovery).
 
-2)Targeted Care Programs for Elderly Patients. Develop specialized care management strategies for patients aged 71–90 to reduce treatment duration and associated costs, possibly through early intervention and post-discharge care follow-ups.
+3)Cost Control
+High costs in Orthopedics and Oncology may indicate over-treatment or inefficiencies.
+Introduce cost-per-outcome tracking to evaluate whether higher costs improve recovery.
 
-3)Monitor Emergency & Neurology Throughput. Implement real-time capacity dashboards for Emergency and Neurology departments to better manage patient flow, minimize bottlenecks, and allocate resources dynamically.
+4)Admissions Management
+High demand in Dermatology and Emergency could indicate overuse for non-critical cases.
+Consider triage improvements or outpatient solutions to reduce unnecessary admissions.
 
-4)Outcome Improvement Initiatives. Launch cross-departmental quality improvement initiatives aimed at reducing Worsened/Deceased outcomes, especially in departments with critical care cases.
+5)Patient Segmentation
+Young adults (21–40) form the largest patient group but have relatively lower recovery days.
+Tailor preventive care campaigns toward high-volume groups to reduce repeat visits.
 
-5)Regular KPI Monitoring & Benchmarking. Establish a monthly KPI review framework to track recovery rates, treatment costs, and department-wise efficiency against industry benchmarks.
 
 
 

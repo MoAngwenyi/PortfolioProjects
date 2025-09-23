@@ -8,7 +8,10 @@ The goal was to analyze enrollment behavior, completion rates, revenue trends, a
 ## 🔍 Steps & Analysis
 
 ### 1. Data Overview
-- Checked total records, duplicates, nulls, and date ranges.
+- Checked total records
+  
+<img width="160" height="228" alt="pic1" src="https://github.com/user-attachments/assets/85f5e84d-0a73-45d0-85b2-96334b6f7842" />
+
 - Duplicates
 <img width="323" height="90" alt="pic2" src="https://github.com/user-attachments/assets/6d053a9c-deed-4e3e-beb4-1ce16fe6596b" />
 
@@ -17,31 +20,32 @@ The goal was to analyze enrollment behavior, completion rates, revenue trends, a
 <img width="317" height="74" alt="pic3" src="https://github.com/user-attachments/assets/ade0d828-bf82-4853-b321-1be337c8e73e" />
 
 
-- Ensured data quality before analysis.
+### 2.  Data Range of the dataset
+<img width="229" height="70" alt="pic4" src="https://github.com/user-attachments/assets/1e58f890-64de-4310-8d9d-3e2c7ba08cfe" />
 
 
-### 2. Enrollments by Category
+### 3. Enrollments by Category
 
 <img width="209" height="159" alt="pic5" src="https://github.com/user-attachments/assets/e0572432-e477-4727-bf13-87028ca4ec49" />
 
 - Analytics and Business Intelligence courses dominate enrollments while Management is at 108 and Programming at 101 at the bottom of enrollment.
 
-### 3. Completion Rates per Course
+### 4. Completion Rates per Course
 <img width="319" height="146" alt="pic9" src="https://github.com/user-attachments/assets/217f50e4-1578-4d5a-b34d-b6d80c1b4475" />
 
 - Database has the highest completion rate at 67.44% , followed by Analytics at 66.81% while management has the lowest completion at 54.63%. 
 
-### 4. Monthly Enrollment Trends
+### 5. Monthly Enrollment Trends
 <img width="232" height="485" alt="pic11" src="https://github.com/user-attachments/assets/30abdb11-d3a2-4331-8aaf-094f01ec26bd" />
 
 - Enrollments peak mid-year, suggesting seasonal demand (possibly linked to academic or professional cycles).
 
-### 5. Revenue by Course
+### 6. Revenue by Course
 <img width="434" height="211" alt="pic12" src="https://github.com/user-attachments/assets/ee0aa5a1-b283-4481-9efc-9ef9927cf935" />
 
 - Project Management has the highest revenue at $32,400 while Power BI Dashboards at $16,050.
 
-### 6. Price Distribution & Statistics
+### 7. Price Distribution & Statistics
 <img width="315" height="69" alt="pic6" src="https://github.com/user-attachments/assets/23c59855-b429-45c1-8931-582fe4391977" />
 
 - Most courses are priced between $150–300. Median price is $200, with some outliers above $300.

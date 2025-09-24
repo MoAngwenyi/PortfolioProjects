@@ -75,20 +75,19 @@ Data was loaded into SQL Server for analysis.
 - Most courses are priced between $150–300. Median price is $200, with some outliers above $300.
 
 ---
-
-## 🛠️ Tech Stack
-- SQL Server (SSMS)
-- ## 📂 Files
-- `eda_queries.sql` - SQL QUERIES
-  
-- Dataset: Synthetic course + enrollment records
-- Tools: Screenshots taken from query outputs
-
----
-
 ## 📈 Key Takeaways
 - Business category = most enrollments, but not the top in revenue.
 - Tech category = fewer enrollments but higher revenue per student.
 - Seasonal trends suggest marketing opportunities during mid-year peaks.
 - Engagement challenge: completion rates significantly lag behind enrollments.
+
+---
+## 🛠️ Tech Stack
+- SQL Server (SSMS)
+- ## 📂 Files
+- `eda_queries.sql` - SQL QUERIES  
+- Dataset: Synthetic course + enrollment records
+  
+
+
 

@@ -2,8 +2,29 @@
 
 ## 📘 Project Overview
 Exploratory Data Analysis (EDA) performed using **SQL Server** on an online courses dataset.
-The goal was to analyze enrollment behavior, completion rates, revenue trends, and pricing insights.
 
+
+🔹 Objective
+- The goal of this project was to perform an exploratory data analysis (EDA) using SQL to uncover insights about online courses, their pricing, and enrollment patterns.
+
+🔹 Dataset
+Tables used:
+- Courses → course details (course_id, course_name, price_usd, category, level)
+- Enrollments → enrollment records (enrollment_id, course_id, user_id, date_enrolled)
+
+Data was loaded into SQL Server for analysis.
+
+🔹 Methodology
+- Wrote SQL queries to explore the dataset.
+- Investigated course pricing, enrollments, and distribution of users.
+- Used aggregate functions, joins, and window functions for deeper insights.
+- Validated results and documented key findings.
+
+🔹 Key Queries & Insights
+- Course Pricing → min, max, average, and median prices across courses.
+- Enrollment Trends → top 10 most enrolled courses.
+- Category-Level Analysis → enrollments and revenue by category.
+- User Behavior → repeat enrollments and activity trends.
 
 ## 🔍 Steps & Analysis
 

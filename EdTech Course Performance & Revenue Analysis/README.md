@@ -61,6 +61,7 @@ Data was loaded into SQL Server for analysis.
 ### 5. Monthly Enrollment Trends
 <img width="232" height="485" alt="pic11" src="https://github.com/user-attachments/assets/30abdb11-d3a2-4331-8aaf-094f01ec26bd" />
 
+- Enrollments are highest 2024-05 at 51 enrollments while 2024-11 at 30.
 - Enrollments peak mid-year, suggesting seasonal demand (possibly linked to academic or professional cycles).
 
 ### 6. Revenue by Course

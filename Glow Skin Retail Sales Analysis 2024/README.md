@@ -2,7 +2,7 @@
 
 Glow skin is a e-commerce company specializing in skincare based in Nairobi, Kenya and serving 5 african countries.
 The KPIs we are investigating are these metrics- ie sales, customers, and products in a span of 4 months April - August 2024.
-The recommendations will be used by the marketing and product team to better allocate marketing and product team resources.
+The recommendations will be used by the executive marketing/ product team to better allocate marketing and product team resources.
 Insights are delivered to operations and product managers.
 
 Insights and recommendations are provided on the following key areas:
@@ -93,7 +93,7 @@ Key Findings:
 
 
 # Recommendations:
-Based on the insights and findings above, we would recommend the MARKETING TEAM to consider the following:
+Based on the insights and findings above, we would recommend the executive and marketing/ product departments to consider the following:
 - Reduce Refund Rates: Since 33% of transactions are refunded, prioritize investigating refund causes (e.g., product quality, shipping issues, or misaligned customer expectations).
 - Profitability Focus: Net sales are healthy, but refund losses wipe out margin. Introduce stricter return policies or improved quality checks before shipping.
 - Channel Optimization: All four channels are performing evenly, so investment can be distributed across them. However, deeper analysis into channel-specific refunds could reveal hidden inefficiencies.

@@ -8,8 +8,8 @@ I specialize in building interactive dashboards, cleaning and analyzing large da
 Each project in this repository reflects real-world business scenarios — from healthcare operations to e-commerce and financial reporting; showcasing my ability to bridge data, business context, and visual communication.
 ### Projects
 - **BluePeak Revenue, Cost and Profit 2024** – Financial dashboard analyzing multi-regional KPIs using Power BI  
-- **Glow Skin Retail Sales Analysis 2024** – E-commerce performance analytics dashboard  
-- **UnityCare Medical Center Analytics Report** – Healthcare operations dashboard  
+- **Glow Skin - E-commerce Sales & Retail Analysis** – E-commerce performance analytics dashboard  
+- **UnityCare Healthcare Operations and Performance Insights** – Healthcare operations dashboard  
 - **EdTech Course Performance & Revenue Analysis (SQL EDA)** – SQL-driven insights on learner engagement and course revenue  
 ## 🛠️ Tools & Technologies
 

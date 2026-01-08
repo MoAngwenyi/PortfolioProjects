@@ -5,8 +5,7 @@
 Glow skin is a e-commerce company specializing in skincare based in Nairobi, Kenya and serving 5 african countries.
 This dashboard provides an end-to-end view of GlowSkin’s commercial performance by answering four critical business questions: Is revenue growth translating into profit? Are customers returning and creating long-term value? Which marketing channels drive efficient growth? And which products and inventory decisions strengthen or erode margins? By combining revenue, profitability, customer behavior, marketing efficiency, and product-level performance into a single analytical view, the dashboard enables leadership to distinguish profitable growth from cost-driven expansion, identify margin leakage from refunds and inefficient inventory turnover, and prioritize high-value customers, channels, and product categories that support sustainable, scalable growth.
 The KPIs investigated are these metrics- ie orders, customers, and products in a span of January 2024 - December 2025.
-The recommendations will be used by the executive marketing/ product team to better allocate marketing and product team resources.
-Insights are delivered to operations and product managers.
+The recommendations will be used by the executive & marketing teams to make decisions and allocate resources needed.
 
 
 I used Google Sheets and Power Query to clean the data.

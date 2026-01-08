@@ -1,4 +1,6 @@
-# 📊 PROJECT OVERVIEW AND BACKGROUND
+# GLOWSKIN - E-COMMERCE SALES & RETAIL ANALYSIS
+
+## 📊 PROJECT OVERVIEW AND BACKGROUND
 
 Glow skin is a e-commerce company specializing in skincare based in Nairobi, Kenya and serving 5 african countries.
 This dashboard provides an end-to-end view of GlowSkin’s commercial performance by answering four critical business questions: Is revenue growth translating into profit? Are customers returning and creating long-term value? Which marketing channels drive efficient growth? And which products and inventory decisions strengthen or erode margins? By combining revenue, profitability, customer behavior, marketing efficiency, and product-level performance into a single analytical view, the dashboard enables leadership to distinguish profitable growth from cost-driven expansion, identify margin leakage from refunds and inefficient inventory turnover, and prioritize high-value customers, channels, and product categories that support sustainable, scalable growth.

@@ -3,12 +3,14 @@
 ## 📊 PROJECT OVERVIEW AND BACKGROUND
 
 Glow skin is a e-commerce company specializing in skincare based in Nairobi, Kenya and serving 5 african countries.
-This dashboard provides an end-to-end view of GlowSkin’s commercial performance by answering four critical business questions: Is revenue growth translating into profit? Are customers returning and creating long-term value? Which marketing channels drive efficient growth? And which products and inventory decisions strengthen or erode margins? By combining revenue, profitability, customer behavior, marketing efficiency, and product-level performance into a single analytical view, the dashboard enables leadership to distinguish profitable growth from cost-driven expansion, identify margin leakage from refunds and inefficient inventory turnover, and prioritize high-value customers, channels, and product categories that support sustainable, scalable growth.
-The KPIs investigated are these metrics- ie orders, customers, and products in a span of January 2024 - December 2025.
-The recommendations will be used by the executive & marketing teams to make decisions and allocate resources needed.
+This dashboard provides an end-to-end view of GlowSkin’s commercial performance by answering three core business questions across Overview, Orders, and Products.
+At an executive level, it evaluates whether revenue growth is translating into sustainable profitability, highlighting trends in total revenue, net margin, acquisition costs, and refund exposure. At the order level, it examines how customers generate value through repeat purchasing behavior, average order patterns, and refunds, helping assess the quality and durability of demand rather than volume alone. At the product and inventory level, the dashboard identifies which product categories and SKUs drive revenue and margin, and which introduce operational risk through high refunds or inefficient inventory turnover.
+
+By integrating financial, transactional, and product-level metrics from January 2024 to December 2025, this dashboard enables leadership to distinguish profitable growth from cost-driven expansion, uncover margin leakage across orders and inventory, and prioritize high-impact products and commercial levers. The insights are designed to support executive, marketing, and operations teams in allocating resources toward scalable growth, margin optimization, and risk reduction.
 
 
 I used Google Sheets and Power Query to clean the data.
+
 I used Power BI to create the dashboard.
 
 # Data Structure & Initial Checks
@@ -37,11 +39,10 @@ Not all channels generate economically viable customers at the same cost.
 - The Power BI link: [Glow Skin Dashboard](https://app.powerbi.com/view?r=eyJrIjoiN2RhYzBjMGEtZGYxZi00ZmU3LTllZGMtZTczYjM5MDM5YzYyIiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9) 
   
 
+![gsk1](https://github.com/user-attachments/assets/70d0bc89-0ab9-4abb-8f39-a7cbc537f6b1)
 
-![finalglow1](https://github.com/user-attachments/assets/17d3e455-a719-4143-947c-75088e132a35)
 
-
-## 📌 Customer Overview
+## 📌 Orders Overview
 - 97.13% Repeat Purchase Rate shows Extremely strong loyalty / repeat behavior.
 - 10.62K Returning Customers. Retention is meaningful.
 - 5.04 Avg Orders per Customer suggests customers are not one-time buyers and a high lifetime value potential.
@@ -51,17 +52,16 @@ Not all channels generate economically viable customers at the same cost.
 - Organic is most cost-efficient CAC by channel at KES 23, 195.04. organic is the strongest efficiency lever.
 
 
-![finalglow2](https://github.com/user-attachments/assets/395e8e14-c315-4b22-afe5-209934e6e2bb)
+![gsk2](https://github.com/user-attachments/assets/4d5d41bd-a9d1-4506-9fb9-e2b3634c57a8)
 
-
-## 📌 Marketing Overview
+## 📌 Products Overview
 - Fragrance is the top revenue driver at KES 25,168,541 while Bodycare & Skincare closely follow at KES 22,393,899 and KES 21,865,501 respectively. Makeup generates the lowest revenue share at KES 16,458,209.
 - Makeup has the highest net profit margin at 0.58 while Bodycare has the lowest margin at 0.57.
 - 29.24K Inventory Turnover shows strong movement of stock.
 - 19.61K Average Inventory Value tells us capital not excessively tied in inventory.
 - Total Revenue of the 10 top products is KES 7,270,436.10.Island Breeze Eau de Toilette is the most profitable KES 987,104.47 with a refund rate of 0.06 closely followed by GlowSkin HydraSerum at KES 795,671.83 with a refund rate of 0.04 while the 10th most profitable product is Berry Burst Body Lotion KES 610,530.32.
 
-![finalglow3](https://github.com/user-attachments/assets/af6f7f85-3a22-4431-8342-99a1c56c31f1)
+![gsk3](https://github.com/user-attachments/assets/850f5ed0-afbb-445a-8e4b-9f5c4183cc1f)
 
 # Recommendations:
 Based on the insights and findings above, we would recommend the executive and marketing/ product departments to consider the following:

@@ -78,7 +78,7 @@ Data was loaded into SQL Server for analysis.
 ### 7. Completion vs Revenue (Cross-Sheet Insight)
 <img width="371" height="193" alt="query7" src="https://github.com/user-attachments/assets/6efc6bbe-6a5e-43f3-8362-7312241850dc" />
 
-- Project Management is the highest revenue earner at $32400 although it's completion rate is at 54.6% , lower than Data Warehousing which has a completion rate of 72.3% with a revenue of $28000.
+- Project Management generates the highest revenue ($32,400) but has a lower completion rate (54.6%), suggesting strong monetization but moderate learner engagement, while Data Warehousing, with slightly lower revenue ($28,000) but a high completion rate (72.3%), indicates better learner satisfaction and potential for growth through upselling or increased promotion.
 
 ---
 ## 📈 Key Takeaways

@@ -39,44 +39,44 @@ Data was loaded into SQL Server for analysis.
 ## 🔍 Steps & Analysis
 
 ### 1. Overall Overview
-- Checked total records - 1000 total enrollments and 9 Courses.
+
+  <img width="358" height="47" alt="query1" src="https://github.com/user-attachments/assets/7b20a018-8d15-42dc-a07d-10521f86ce2e" />
   
 
-<img width="358" height="47" alt="query1" src="https://github.com/user-attachments/assets/259aab25-d435-4cec-a46f-db2bd3e06687" />
-
+- Of 1,000 enrolled learners, 628 completed the program (62.8%), indicating moderate engagement, with 372 learners dropping out — highlighting opportunities to improve retention and completion strategies.
 
 ### 2.  Question 2 High Demand, Low Completion (Risk Identification)
-<img width="229" height="70" alt="pic4" src="https://github.com/user-attachments/assets/1e58f890-64de-4310-8d9d-3e2c7ba08cfe" />
 
-- The first enrollment was on 29-07-2023 while the last enrollment was 26-07-2025 showing the courses have run for averagely 2 years.
+<img width="350" height="86" alt="query2" src="https://github.com/user-attachments/assets/a90da302-3f0a-4cf3-a0e2-7aa1a89ab9ef" />
+
+
+- Machine Learning  and Tableau are the most in demand courses at 61.2%  and 58.8% respectively suggesting they're both high-value skills.
 
 ### 3. Monthly Enrollment Trend
 
-<img width="209" height="159" alt="pic5" src="https://github.com/user-attachments/assets/e0572432-e477-4727-bf13-87028ca4ec49" />
+<img width="230" height="492" alt="query3" src="https://github.com/user-attachments/assets/caed8f8c-e40b-47e4-b40b-143226d6f8c8" />
 
-- Analytics and Business Intelligence courses dominate enrollments while Management is at 108 and Programming at 101 at the bottom of enrollment.
 
+- Enrollments peak from August to December (37–52 learners), suggesting a mild seasonal trend likely driven by academic cycles or year-end goals; marketing and support efforts should focus on these months to maximize engagement.
+  
 ### 4. Month-over-Month Change
-<img width="456" height="211" alt="pic8" src="https://github.com/user-attachments/assets/8d6d0231-8073-4631-aaca-7ea61f8d3bdf" />
 
-- Data Warehousing has the highest completion rate at 72.32% and Excel Advanced is second with 68.33%.
-- Power BI Dashboards and Project Management have the least completion rates at 57.94% and 54.63% respectively.
+<img width="311" height="495" alt="query4" src="https://github.com/user-attachments/assets/746de0e2-a029-40ec-8a4e-d3b386a4a664" />
+
   
 ### 5. Revenue Drivers by Course
-<img width="232" height="485" alt="pic11" src="https://github.com/user-attachments/assets/30abdb11-d3a2-4331-8aaf-094f01ec26bd" />
+<img width="258" height="195" alt="query5" src="https://github.com/user-attachments/assets/0f406137-3fc6-4719-89a5-bb08ee37f1ff" />
 
-- Enrollments are highest 2024-05 at 51 enrollments while 2024-11 at 30.
-- Enrollments peak mid-year, suggesting seasonal demand (possibly linked to academic or professional cycles).
+
+- Project Management is the top revenue generator at $32,400, closely followed by Machine Learning at $31,000, while Tableau and Power BI dashboards lag at $17850 and $16,050 respectively, highlighting PM and ML as high-value services and suggesting opportunities to increase Power BI and Tableau uptake through bundling or upselling.
+
 
 ### 6. Price vs Demand Trade-off
-<img width="434" height="211" alt="pic12" src="https://github.com/user-attachments/assets/ee0aa5a1-b283-4481-9efc-9ef9927cf935" />
+<img width="419" height="194" alt="query6" src="https://github.com/user-attachments/assets/44cf2e04-a71f-4067-a06c-e4d6f32351ec" />
 
-- Project Management has the highest revenue at $32,400 while Power BI Dashboards at $16,050.
 
 ### 7. Completion vs Revenue (Cross-Sheet Insight)
-<img width="315" height="69" alt="pic6" src="https://github.com/user-attachments/assets/23c59855-b429-45c1-8931-582fe4391977" />
-
-- Most courses are priced between $150–300. Median price is $200, with some outliers above $300.
+<img width="371" height="193" alt="query7" src="https://github.com/user-attachments/assets/6efc6bbe-6a5e-43f3-8362-7312241850dc" />
 
 ---
 ## 📈 Key Takeaways
@@ -89,8 +89,7 @@ Data was loaded into SQL Server for analysis.
 ## 🛠️ Tech Stack
 - SQL Server (SSMS)
 - ## 📂 Files
-- `eda_queries.sql` - SQL QUERIES  
-- Dataset: Synthetic course + enrollment records
+- `edtechsqleda.sql
   
 
 

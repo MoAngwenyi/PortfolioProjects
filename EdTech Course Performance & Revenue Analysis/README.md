@@ -34,9 +34,6 @@ Data was loaded into SQL Server for analysis.
 - Are there signs of revenue concentration or dependency on a small subset of courses or learners?
 
 ### 🔹 📊 Key Business Insights
-- 
-
-## 🔍 Steps & Analysis
 
 ### 1. Overall Overview
 

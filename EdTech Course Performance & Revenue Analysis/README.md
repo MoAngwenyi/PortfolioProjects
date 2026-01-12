@@ -3,29 +3,18 @@
 ### 📘 Project Overview
 This project analyzes enrollment, revenue, and course performance data for a tech online education business using SQL. The goal is to evaluate growth quality, monetization efficiency, and customer behavior to support strategic decision-making.
 
-### 🗂 Dataset Description
 
-The analysis uses three datasets:
-
-- Enrollments: student enrollments by course and date
-
-- Courses: course metadata including category and pricing
-
-- Payments: payment transactions linked to enrollments
-
-- Data was imported into Microsoft SQL Server and analyzed using T-SQL.
-
+### 🔹 Dataset
+The analysis uses three tables used:
+- Courses → course details (course_id, course_name, price_usd, category, level).
+- Enrollments → enrollment records (enrollment_id, course_id, user_id, date_enrolled).
+- Revenue  →  monthly revenue from the various courses.
+  
+Data was loaded into SQL Server for analysis.
 
 ### 🔹 Objective
 - The goal of this project was to perform an exploratory data analysis (EDA) using SQL to uncover insights about online courses, their pricing, and enrollment patterns.
 
-### 🔹 Dataset
-Tables used:
-- Courses → course details (course_id, course_name, price_usd, category, level)
-- Enrollments → enrollment records (enrollment_id, course_id, user_id, date_enrolled)
-- Revenue  →  monthly revenue from the various courses
-
-Data was loaded into SQL Server for analysis.
 
 ### 🔹 Key Questions
 - Is enrollment growth translating into sustainable revenue growth over time?
@@ -60,6 +49,8 @@ Data was loaded into SQL Server for analysis.
 
 <img width="311" height="495" alt="query4" src="https://github.com/user-attachments/assets/746de0e2-a029-40ec-8a4e-d3b386a4a664" />
 
+- Month-over-month enrollment changes show high volatility with recurring seasonal peaks in late Q3 and Q4, followed by consistent post-peak declines. While demand remains stable over time, growth is episodic rather than sustained, highlighting opportunities to improve retention and smooth enrollment momentum beyond acquisition spikes.
+
   
 ### 5. Revenue Drivers by Course
 <img width="258" height="195" alt="query5" src="https://github.com/user-attachments/assets/0f406137-3fc6-4719-89a5-bb08ee37f1ff" />
@@ -71,6 +62,11 @@ Data was loaded into SQL Server for analysis.
 ### 6. Price vs Demand Trade-off
 <img width="419" height="194" alt="query6" src="https://github.com/user-attachments/assets/44cf2e04-a71f-4067-a06c-e4d6f32351ec" />
 
+- Revenue is primarily driven by course pricing rather than enrollment volume, with Project Management and Machine Learning emerging as top revenue drivers, while lower-priced BI and foundational courses perform better as funnel or bundle offerings rather than standalone products.
+- Project Management has 108 enrollments (not the highest) with the highest price at $300 and highest revenue at $32,400. This shows that premium pricing outweighs volume in revenue generation.
+- Machine Learning is the strongest all-round performer with the highest enrollments at 124 with a price of $250 and a revenue of $31,000 (very close to Project Management).
+- BI tools (Tableau & Power BI) are lowest revenue contributors: Tableau at $17,850 and Power BI Dashboards at $16,050 despite decent enrollments (107–119).
+
 
 ### 7. Completion vs Revenue (Cross-Sheet Insight)
 <img width="371" height="193" alt="query7" src="https://github.com/user-attachments/assets/6efc6bbe-6a5e-43f3-8362-7312241850dc" />
@@ -78,11 +74,12 @@ Data was loaded into SQL Server for analysis.
 - Project Management generates the highest revenue ($32,400) but has a lower completion rate (54.6%), suggesting strong monetization but moderate learner engagement, while Data Warehousing, with slightly lower revenue ($28,000) but a high completion rate (72.3%), indicates better learner satisfaction and potential for growth through upselling or increased promotion.
 
 ---
-## 📈 Key Takeaways
-- Business category = most enrollments, but not the top in revenue.
-- Tech category = fewer enrollments but higher revenue per student.
-- Seasonal trends suggest marketing opportunities during mid-year peaks.
-- Engagement challenge: completion rates significantly lag behind enrollments.
+## 📈 Recommendations
+- Monetize high-completion courses more aggressively. Data Warehousing has a high completion rate (72.3%) but lower revenue than PM.
+- Use BI tools as bundles, not standalone products. Tableau and Power BI have decent enrollments but lowest revenue.
+- Align marketing with seasonal enrollment spikes. Enrollment peaks from August–December. MoM spikes followed by sharp drop-offs.
+- Improve completion for high-revenue but low-completion courses. Project Management has the highest revenue but relatively low completion (54.6%). High drop-offs after enrollment spikes.
+
 
 ---
 ## 🛠️ Tech Stack

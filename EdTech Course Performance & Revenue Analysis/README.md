@@ -1,4 +1,4 @@
-# SQL EDA Project – EdTech Course Performance Analytics
+## SQL EDA Project – EdTech Course Performance & Growth Analytics
 
 ### 📘 Project Overview
 This project analyzes enrollment, revenue, and course performance data for a tech online education business using SQL. The goal is to evaluate growth quality, monetization efficiency, and customer behavior to support strategic decision-making.

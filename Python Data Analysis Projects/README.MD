@@ -16,11 +16,6 @@ This project analyzes bike share service data for Cyclistic to uncover insights 
 ### Monthly Cash Flow by Transaction Type (2024)
 
 - 2024 transaction activity shows strong seasonality. Deposits and transfers reflect predictable cycles, while withdrawals are more volatile. POS usage steadily rises over the year, indicating increased digital adoption. July and October represent peak customer activity, creating opportunities for strategic outreach, liquidity planning, and operational optimization. 
-Deposits and Bank Transfers drive the largest monthly cash inflows.
-- Withdrawals show volatility—potential cash-intensive months.
-- POS transactions steadily grow throughout the year.
-- July and October are the highest overall activity months.
-- August and February show reduced cash activity.
 
 
 ### Distribution of Transaction Types

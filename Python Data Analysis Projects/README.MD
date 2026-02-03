@@ -9,6 +9,11 @@
 - Jupyter Notebook
 
 ## 📈 Key Analytical Objectives
+1. What is the monthly cash flow?
+2. What is the distribution across all transaction types.
+3. Who are top customers transaction wise?
+4. What are the transaction type numbers.
+5. What transactions are physical or digital?
 
 ## 📊 Key Findings
 

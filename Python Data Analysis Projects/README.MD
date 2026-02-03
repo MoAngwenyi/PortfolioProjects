@@ -2,7 +2,7 @@
 
 
 ## 📑 Data Source
-- Public dataset from Cyclistic bike-share company (through Google Data Analytics Capstone)
+- Dataset Available
 
 ## 🛠️ Tools Used
 - Python (Pandas, Matplotlib, Seaborn)
@@ -16,7 +16,7 @@
 
 - 2024 transaction activity shows strong seasonality. Deposits and transfers reflect predictable cycles, while withdrawals are more volatile. POS usage steadily rises over the year, indicating increased digital adoption. July and October represent peak customer activity, creating opportunities for strategic outreach, liquidity planning, and operational optimization. 
 
-C:\Users\Frankie\Downloads\banktransactions1.PNG
+
 ### Distribution of Transaction Types
 - Across the 2024 dataset, customer behavior shows a healthy balance across all transaction types(Deposit: 2,443, POS: 2,389, Bank Transfer: 2,373, Withdrawal: 2,352), with deposits being the most common and withdrawals slightly lower. The strong volume of POS transactions highlights increasing digital payment adoption, while the consistent use of bank transfers underscores active account-to-account movement. Overall, the transaction mix suggests an engaged and digitally adapting customer base.
 

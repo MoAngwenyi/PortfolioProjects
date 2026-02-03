@@ -11,6 +11,8 @@ This project analyzes bike share service data for Cyclistic to uncover insights 
 
 ## 📈 Key Analytical Objectives
 
+## 📊 Key Findings
+
 ### Monthly Cash Flow by Transaction Type (2024)
 
 - 2024 transaction activity shows strong seasonality. Deposits and transfers reflect predictable cycles, while withdrawals are more volatile. POS usage steadily rises over the year, indicating increased digital adoption. July and October represent peak customer activity, creating opportunities for strategic outreach, liquidity planning, and operational optimization. 

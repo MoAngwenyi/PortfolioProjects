@@ -1,4 +1,4 @@
-# 🚴‍♂️ Cyclistic Bike Share Analysis
+# Banking Data EDA & Insights: Transaction Trends, Volumes, and Customer Activity
 
 This project analyzes bike share service data for Cyclistic to uncover insights about user behavior and provide actionable recommendations for marketing strategies.
 

@@ -1,4 +1,4 @@
-# Banking Data EDA & Insights: Transaction Trends, Volumes, and Customer Activity
+## Banking Data EDA & Insights: Transaction Trends, Volumes, and Customer Activity
 
 
 ## 📑 Data Source

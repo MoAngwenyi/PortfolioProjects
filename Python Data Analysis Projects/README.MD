@@ -49,7 +49,10 @@
 ![alt text](transactions4.PNG)
 
 ### Digital vs. Physical Transactions 
-- The bank’s transaction activity is heavily skewed toward physical channels, with 75% of all transactions occurring at branches, ATMs, or POS. Digital channels account for only 25%, indicating low digital adoption relative to modern industry standards. This reliance on physical infrastructure increases operational costs and highlights a significant opportunity for digital transformation through customer education, incentives, and improved digital user experience.
+- The bank’s transaction activity is heavily concentrated in physical channels, with deposits and withdrawals accounting for roughly 75% of all transactions. In contrast, digital channels—primarily bank transfers and POS transactions represent only 25% of total activity.
+This imbalance suggests low digital adoption among customers, especially compared with modern banking trends that emphasize mobile and online services. The reliance on branch and ATM activity increases operational costs and creates unnecessary pressure on physical infrastructure.
+These findings point to a strong opportunity for the bank to accelerate digital transformation through customer education, promotional incentives, and enhancements to the digital banking experience to encourage greater online engagement.
+
 ![alt text](transactions5.PNG)
 
 

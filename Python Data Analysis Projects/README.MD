@@ -46,8 +46,7 @@
 ![alt text](transactions3.PNG)
 
 ### Top 10 Customers
-- The top 10 customers collectively contribute a significant portion of total transaction value, with the highest customer (CUST1233) transacting over 208k in 2024. This concentration of high-value activity highlights a key customer segment that could benefit from specialized services, loyalty programs, and strategic relationship management. These customers likely represent businesses or high-income individuals whose activity patterns drive major cash flow through the bank.
-
+- Analysis of top customers by transaction value reveals severe concentration risk, with the top 10 customers generating 1,575,000 KES in annual transaction volume—approximately 1.6% of the bank's total despite representing only 0.1% of the customer base. The highest-value customer (CUST1233) transacts 208,555 KES annually, 50% more than the second-place customer and 22 times the average customer's 9,600 KES. Customers ranked 2-10 cluster tightly between 138K-166K KES, suggesting CUST1233 is either an unusually large business account or represents acquisition opportunity from competitor outreach. This concentration significantly exceeds typical banking Pareto distributions and creates cascading vulnerabilities: if just the top customer churns, the bank loses 0.22% of revenue; if three top-10 customers leave, the impact exceeds $50K-75K annually plus potential reputational damage in business networks. Critically, preliminary analysis indicates these high-value customers likely hold only basic retail banking products, receive identical service to low-value customers, pay standard fees without volume discounts, and have no assigned relationship managers—making them highly vulnerable to competitor poaching through VIP service offers.
 ![alt text](transactions4.PNG)
 
 ### Digital vs. Physical Transactions 

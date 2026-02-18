@@ -11,7 +11,7 @@ Each project in this repository reflects real-world business scenarios — from 
 - **Glow Skin - E-commerce Sales & Retail Analysis** – E-commerce performance analytics dashboard using Power BI. 
 - **EdTech Course Performance & Growth Analysis (SQL EDA)** – SQL-driven insights on learner engagement and course revenue.
 - **Public Health Visualization- Tableau** - Analyzed regional case trends, mortality rates, and recovery patterns using Tableau to uncover key insights into the Ebola outbreak’s progression and public health response effectiveness.
-- **Python Data Analysis - PYTHON EDA** - Python-based data analysis projects demonstrating data cleaning, exploratory analysis, and automation of analytical workflows using Pandas, NumPy, Matplotlib and Seaborn.
+- **Python Data Analysis - Bank Transactions PYTHON EDA** - Python-based data analysis projects demonstrating data cleaning, exploratory analysis, and automation of analytical workflows using Pandas, NumPy, Matplotlib and Seaborn.
 ## 🛠️ Tools & Technologies
 
 - SQL (MySQL, PostgreSQL)

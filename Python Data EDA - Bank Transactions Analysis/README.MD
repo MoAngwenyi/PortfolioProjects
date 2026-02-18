@@ -2,14 +2,14 @@
 
 
 ## 📑 Data Source
-- Dataset Available
+- Dataset Available in the folder(transactions_dirty.csv)
 
 ## 🛠️ Tools Used
 - Python (Pandas, Matplotlib, Seaborn)
 - Jupyter Notebook
 - Excel
 
-## Data Preparations
+## Data Preparations / Cleaning
 1) Changed the data type of transaction_date to datetime from object(pd.to_datetime function).
 2) Dealt with negative amounts in amount column by maing the values positive.
 3) Filled null values in amount column with the mean of the column.

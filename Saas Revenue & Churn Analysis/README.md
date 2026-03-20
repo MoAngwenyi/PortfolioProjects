@@ -1,4 +1,4 @@
-## Saas Revenue & Churn Analysis
+# Saas Revenue & Churn Analysis
 
 ### 📊 PROJECT OVERVIEW
 CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, the board has raised concerns about a high churn rate. The CFO wants to understand the monthly churn trends, which customer segments are most at risk, and what the company’s unit economics look like (MRR per customer, customer acquisition cost vs. lifetime value). You have access to a subscription-level dataset with customer details, plan info, and churn status, as well as a monthly revenue summary.
@@ -24,3 +24,38 @@ The company demonstrates strong revenue generation fundamentals, with a high Cus
 ![saas3](https://github.com/user-attachments/assets/e5e415fa-116e-44bd-bdff-c9440a4e2761)
 
 The data highlights a significant retention risk, with 223 customers (37%) identified as at risk, representing a substantial revenue exposure of 156,079, which could materially impact future performance if not addressed. A key driver of this risk is low product engagement, as customers with low feature usage show the highest churn rates (~80%), while highly engaged users exhibit near-zero churn—clearly indicating that product adoption is a critical lever for retention. This is further reinforced by customer sentiment, where detractors (NPS) have a high churn rate (~70%), while passives and promoters show minimal churn, emphasizing the importance of improving customer experience and satisfaction. From an acquisition perspective, referral (59) and organic search (45) channels contribute the largest share of at-risk customers, suggesting that while these channels drive volume, they may not bring in sufficiently qualified or well-onboarded users. Additionally, lower-tier plans, particularly Starter (45%) and Professional (35%), have the highest proportion of at-risk customers, aligning with earlier insights around weaker retention in these segments. Overall, the data suggests that churn risk is primarily driven by low engagement, poor customer experience, and lower-value customer segments, highlighting the need for stronger onboarding, proactive customer success interventions, and targeted engagement strategies to protect revenue and improve retention.
+
+## Recommendations
+### 1. Drive Product Adoption Through Structured Onboarding
+Low feature usage is the strongest predictor of churn (up to ~80%), making activation the biggest lever. This can be imporved by:
+- Implementing guided onboarding, in-app walkthroughs, and “first value” milestones within the first 7–14 days.
+- Introducing customer success check-ins for new users, especially on Starter and Professional plans.
+This will lead to increased engagement → directly reduces churn and at-risk customers.
+
+### 2. Repackage and Incentivize Annual Plans
+Monthly users churn significantly more than annual subscribers.
+- Offer discounts, added features, or exclusive support for annual commitments.
+- Introduce upgrade nudges at key moments (e.g., after successful usage milestones).
+This improves retention and stabilizes recurring revenue.
+
+### 3. Fix Acquisition Channel Quality (Not Just Volume)
+Channels like referrals and partners bring high churn and high-risk customers.
+- Refine targeting criteria and messaging for these channels.
+- Align marketing promises with actual product value to reduce expectation gaps.
+- Shift budget toward higher-retention channels like direct sales.
+
+This leads to better customer quality → lower churn → higher CLV over time.
+
+### 4. Prioritize Retention in Lower-Tier Plans
+Starter and Professional plans show highest churn and risk concentration.
+- Reassess pricing vs. value perception in these tiers.
+- Bundle key features that drive engagement earlier.
+- Introduce proactive retention triggers (e.g., alerts when usage drops).
+This expands value across the customer base and reduces overreliance on Enterprise revenue.
+
+### 5. Implement a Proactive Customer Health & Retention Program
+With 37% of customers at risk and 156K revenue exposed, reactive retention is too late.
+- Build a customer health score combining usage, NPS, and activity signals.
+- Trigger automated interventions (emails, offers, CSM outreach) for at-risk users.
+- Focus especially on detractors and low-engagement users.
+Preventing churn before it happens and protects revenue at scale.

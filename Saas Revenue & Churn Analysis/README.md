@@ -10,18 +10,28 @@ CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 202
 ![saasdata model](https://github.com/user-attachments/assets/8f9f1b0b-a2ff-4700-977d-797dec32f596)
 
 The dataset has two workbooks 
-1) monthly revenue
-2) subscriptions
+1) monthly revenue -  month, total active customers,	new customers,	churned customers,	monthly churn rate pct,	total mrr, avg revenue per customer, and customer acquisition cost.
+
+2) subscriptions - customer id,	plan,	billing cycle,	industry,	company size,	seats,	monthly revenue,	acquisition channel, region, signup date,	churned,	churn date,	churn reason,	support tickets 12mo,	nps score,	feature usage pct,	upgraded, churn flag, customer lifespan, nps category,feature usage category, at risk customer.
+
+### Tech Stack
+- Excel - data cleaning.
+- Power BI - 
+- DAX - At Risk Customers, Churn Rate, Avg Lifespan, Net Revenue Retention(NRR).
+
+
 
 ## 📌 Overview of Findings
 ## Churn Analysis
 
-![saas2](https://github.com/user-attachments/assets/bf69e219-ac31-4b26-b754-a2cb4a8c686f)
+![saas2](https://github.com/user-attachments/assets/6f7a251f-02dc-47ef-92ff-18e128b5b54c)
+
 
 The business is experiencing a high churn rate of 52%, with 313 out of 600 customers leaving, signaling a significant retention problem that directly threatens long-term revenue growth. Churn is notably higher among monthly subscribers (60.5%) compared to annual users (40.3%), suggesting that longer-term commitments improve retention and that the company may need stronger incentives to convert users to annual plans. By plan type, Starter (71%) and Professional (48%) tiers show the highest churn, indicating potential mismatches in pricing, value delivery, or onboarding experience at the lower tiers. From an acquisition standpoint, referrals (61%) and partner channels (58%) drive the highest churn, implying that while these channels may bring volume, they likely attract lower-quality or less engaged customers compared to direct sales (39%). Smaller companies, especially those with under 50 employees (~53%), churn more than mid-sized segments, pointing to either affordability or product-fit issues. Regionally, Latin America (62%) and Europe (55%) show elevated churn, highlighting possible localization, pricing, or support gaps. Finally, industries like Real Estate (61%) and Finance (59%) are the most affected, suggesting that the product may not be fully aligned with their needs or expectations. Overall, the data indicates that churn is driven by a combination of customer segment misalignment, weak onboarding/retention strategies for lower-tier plans, and inefficient acquisition channels, requiring targeted interventions across pricing, customer success, and go-to-market strategy.
 
 ## Revenue 
-![saas1](https://github.com/user-attachments/assets/1b372877-9754-489d-bad5-7f1f36d87a5a)
+![saas1](https://github.com/user-attachments/assets/6f8aeb4b-76a8-4da9-9278-d6d1876f1b76)
+
 
 The company demonstrates strong revenue generation fundamentals, with a high Customer Lifetime Value (7,952) significantly exceeding Customer Acquisition Cost (200.04), indicating an efficient and scalable growth model where each customer delivers substantial long-term value. Total revenue of 490,593 is supported by a steadily increasing Monthly Recurring Revenue (MRR) trend, showing consistent business expansion over time. However, the CLV vs CAC by plan reveals a heavy reliance on Enterprise customers, who generate the highest value by a wide margin, while lower-tier plans like Starter and Professional contribute significantly less—highlighting a potential overdependence on high-value segments. The Average Revenue Per User (ARPU) remains relatively stable around the 1,000 mark, suggesting consistent monetization but limited pricing expansion or upsell growth. Meanwhile, Monthly Net Revenue Retention shows high volatility, with sharp fluctuations that may reflect inconsistent expansion revenue or the impact of churn and downgrades—aligning with the previously observed high churn rate. Overall, while the business is financially efficient and growing, the data suggests a need to stabilize revenue retention, diversify value across customer tiers, and reduce dependency on Enterprise clients to ensure more balanced and resilient growth.
 

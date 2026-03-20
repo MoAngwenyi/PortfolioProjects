@@ -1,0 +1,601 @@
+customer_id,plan,billing_cycle,industry,company_size,seats,monthly_revenue,acquisition_channel,region,signup_date,churned,churn_date,churn_reason,support_tickets_12mo,nps_score,feature_usage_pct,upgraded
+CUST-0001,Professional,Monthly,Retail,51-200,64,825.55,Organic Search,North America,2022-06-27,Yes,2024-03-05,Price Too High,13,3,15,No
+CUST-0002,Professional,Annual,Retail,51-200,35,409.62,Direct Sales,North America,2023-03-19,No,,,1,3,52,Yes
+CUST-0003,Starter,Annual,Finance,500+,266,1004.49,Partner,North America,2024-10-19,Yes,2025-04-13,Price Too High,10,4,31,No
+CUST-0004,Business,Annual,Real Estate,11-50,34,1006.44,Partner,Europe,2023-01-07,No,,,3,7,58,No
+CUST-0005,Starter,Annual,Manufacturing,51-200,48,198.43,Direct Sales,North America,2025-09-23,No,,,3,7,59,No
+CUST-0006,Business,Annual,Technology,1-10,3,219.9,Referral,North America,2023-09-28,No,,,12,3,48,No
+CUST-0007,Starter,Monthly,Finance,201-500,121,551.0,Partner,Europe,2024-03-07,Yes,2025-04-08,Poor Support,0,2,14,No
+CUST-0008,Starter,Monthly,Technology,51-200,48,233.45,Referral,Europe,2025-04-08,Yes,2025-06-08,Price Too High,10,2,28,No
+CUST-0009,Starter,Monthly,Media,1-10,3,37.7,Partner,North America,2023-01-22,Yes,2023-04-21,Switched Competitor,5,6,15,No
+CUST-0010,Business,Monthly,Healthcare,51-200,80,2557.15,Partner,North America,2022-06-27,Yes,2023-12-01,Budget Cuts,3,4,48,No
+CUST-0011,Business,Annual,Healthcare,201-500,77,2097.46,Organic Search,Asia Pacific,2022-12-07,Yes,2023-06-14,Company Closed,9,1,37,No
+CUST-0012,Business,Annual,Technology,11-50,30,904.95,Referral,North America,2023-11-17,No,,,4,1,47,Yes
+CUST-0013,Business,Monthly,Finance,1-10,4,288.55,Referral,Europe,2024-07-02,No,,,10,9,84,Yes
+CUST-0014,Starter,Monthly,Retail,51-200,56,268.25,Paid Ads,Europe,2022-05-29,Yes,2022-09-27,Poor Support,1,2,21,No
+CUST-0015,Starter,Monthly,Education,1-10,6,50.75,Referral,North America,2024-01-17,Yes,2024-05-16,No Longer Needed,7,3,25,No
+CUST-0016,Starter,Monthly,Manufacturing,201-500,52,250.85,Organic Search,North America,2022-06-01,Yes,2023-01-24,Budget Cuts,11,4,34,No
+CUST-0017,Business,Monthly,Education,11-50,34,1184.05,Paid Ads,North America,2024-12-23,Yes,2024-12-31,No Longer Needed,3,3,49,No
+CUST-0018,Starter,Monthly,Media,51-200,64,303.05,Referral,Europe,2023-06-21,Yes,2023-08-05,Company Closed,14,3,25,No
+CUST-0019,Professional,Annual,Legal,500+,67,731.93,Partner,Latin America,2024-03-26,Yes,2025-04-23,Company Closed,10,2,10,No
+CUST-0020,Enterprise,Annual,Education,1-10,7,805.88,Organic Search,Asia Pacific,2023-08-11,No,,,8,4,93,No
+CUST-0021,Professional,Annual,Retail,51-200,66,721.86,Partner,Europe,2023-11-23,Yes,2024-05-18,Price Too High,7,2,19,No
+CUST-0022,Business,Annual,Education,1-10,6,296.01,Referral,Europe,2022-07-02,No,,,5,7,40,No
+CUST-0023,Starter,Monthly,Healthcare,11-50,25,133.4,Paid Ads,Europe,2024-02-17,Yes,2024-04-23,Company Closed,11,1,16,No
+CUST-0024,Enterprise,Annual,Manufacturing,11-50,14,1251.24,Referral,Europe,2025-05-22,No,,,11,1,85,No
+CUST-0025,Starter,Annual,Retail,11-50,7,46.83,Referral,North America,2024-06-08,No,,,1,1,42,No
+CUST-0026,Enterprise,Annual,Media,1-10,4,615.02,Referral,Europe,2025-07-25,No,,,2,9,73,No
+CUST-0027,Starter,Monthly,Consulting,1-10,1,29.0,Partner,Asia Pacific,2023-09-10,Yes,2025-04-24,Poor Support,8,3,10,No
+CUST-0028,Professional,Annual,Technology,51-200,35,409.62,Organic Search,Latin America,2025-12-29,No,,,8,4,53,No
+CUST-0029,Starter,Monthly,Real Estate,11-50,22,120.35,Organic Search,North America,2022-12-06,Yes,2023-08-15,Missing Features,4,2,17,No
+CUST-0030,Business,Annual,Real Estate,500+,230,5979.45,Partner,Europe,2023-11-04,No,,,9,3,76,No
+CUST-0031,Business,Annual,Finance,500+,174,4558.59,Direct Sales,Europe,2024-07-20,No,,,8,7,84,No
+CUST-0032,Enterprise,Annual,Technology,1-10,5,678.64,Referral,North America,2023-03-28,No,,,7,8,16,No
+CUST-0033,Starter,Annual,Consulting,1-10,6,43.14,Organic Search,Latin America,2024-05-19,Yes,2024-07-29,No Longer Needed,11,3,30,No
+CUST-0034,Enterprise,Annual,Education,11-50,35,2587.32,Referral,North America,2023-09-25,No,,,5,8,33,Yes
+CUST-0035,Starter,Monthly,Manufacturing,51-200,70,329.15,Organic Search,Latin America,2022-05-08,Yes,2022-07-24,Switched Competitor,0,6,30,No
+CUST-0036,Professional,Monthly,Manufacturing,1-10,7,150.1,Referral,Latin America,2023-04-22,Yes,2023-12-24,Company Closed,10,6,16,No
+CUST-0037,Professional,Monthly,Technology,1-10,2,90.85,Direct Sales,North America,2024-06-14,Yes,2024-11-08,No Longer Needed,11,2,34,No
+CUST-0038,Professional,Monthly,Real Estate,1-10,5,126.4,Organic Search,Europe,2022-06-06,Yes,2022-08-11,Budget Cuts,6,1,30,No
+CUST-0039,Business,Annual,Retail,51-200,30,904.95,Organic Search,Asia Pacific,2024-05-02,No,,,4,9,71,Yes
+CUST-0040,Business,Annual,Media,11-50,24,752.72,Direct Sales,Asia Pacific,2023-05-17,No,,,9,2,76,No
+CUST-0041,Starter,Monthly,Education,51-200,53,255.2,Referral,Asia Pacific,2022-12-21,Yes,2023-05-19,Poor Support,4,5,45,No
+CUST-0042,Starter,Monthly,Real Estate,51-200,34,172.55,Partner,Europe,2025-01-04,No,,,9,2,73,No
+CUST-0043,Professional,Annual,Manufacturing,1-10,2,77.22,Paid Ads,Europe,2022-02-20,No,,,9,9,20,No
+CUST-0044,Professional,Annual,Legal,1-10,2,77.22,Social Media,North America,2022-04-27,Yes,2022-08-02,Price Too High,7,6,20,No
+CUST-0045,Starter,Monthly,Retail,11-50,7,55.1,Social Media,Latin America,2025-09-10,No,,,12,4,67,No
+CUST-0046,Professional,Monthly,Finance,1-10,4,114.55,Paid Ads,North America,2023-07-07,Yes,2024-02-28,Missing Features,1,6,42,No
+CUST-0047,Business,Monthly,Media,1-10,5,318.4,Partner,North America,2023-01-17,Yes,2025-06-13,No Longer Needed,15,4,46,No
+CUST-0048,Business,Annual,Education,1-10,4,245.27,Referral,Europe,2022-04-18,Yes,2022-07-12,Budget Cuts,4,5,16,No
+CUST-0049,Professional,Monthly,Real Estate,51-200,36,493.75,Partner,Asia Pacific,2022-05-18,Yes,2022-08-27,Poor Support,1,6,26,No
+CUST-0050,Starter,Annual,Healthcare,1-10,7,46.83,Organic Search,North America,2022-06-22,Yes,2024-06-30,Price Too High,2,3,38,No
+CUST-0051,Professional,Monthly,Consulting,51-200,58,754.45,Partner,Europe,2022-12-27,Yes,2023-04-14,Price Too High,10,3,29,No
+CUST-0052,Starter,Monthly,Healthcare,201-500,138,624.95,Referral,North America,2025-03-16,Yes,2025-07-15,Budget Cuts,0,1,38,No
+CUST-0053,Starter,Monthly,Manufacturing,1-10,4,42.05,Organic Search,North America,2025-04-03,Yes,2025-07-04,Price Too High,1,2,43,No
+CUST-0054,Professional,Annual,Healthcare,201-500,82,883.02,Social Media,North America,2024-06-23,No,,,4,8,81,No
+CUST-0055,Business,Monthly,Manufacturing,1-10,7,378.1,Organic Search,North America,2022-04-13,Yes,2024-09-16,Missing Features,6,2,21,No
+CUST-0056,Business,Monthly,Technology,11-50,14,587.05,Paid Ads,North America,2024-12-23,Yes,2025-11-15,Missing Features,3,2,37,No
+CUST-0057,Professional,Annual,Healthcare,11-50,34,399.54,Referral,North America,2024-07-12,Yes,2025-08-05,No Longer Needed,1,1,10,No
+CUST-0058,Starter,Monthly,Real Estate,201-500,48,233.45,Referral,Europe,2022-09-10,Yes,2023-03-17,Price Too High,2,1,12,No
+CUST-0059,Professional,Annual,Healthcare,11-50,28,339.11,Social Media,North America,2023-12-30,Yes,2024-10-10,Missing Features,5,1,13,No
+CUST-0060,Professional,Monthly,Finance,51-200,59,766.3,Partner,Asia Pacific,2024-07-30,Yes,2024-09-07,Switched Competitor,12,1,45,No
+CUST-0061,Business,Monthly,Legal,51-200,53,1751.2,Referral,Europe,2022-03-25,Yes,2023-04-06,Switched Competitor,13,5,11,No
+CUST-0062,Professional,Monthly,Finance,11-50,21,316.0,Paid Ads,North America,2022-10-01,Yes,2024-04-13,Switched Competitor,1,3,16,No
+CUST-0063,Enterprise,Annual,Retail,11-50,18,1505.73,Organic Search,North America,2025-08-21,No,,,3,7,61,No
+CUST-0064,Professional,Annual,Retail,51-200,51,570.77,Direct Sales,Asia Pacific,2022-10-02,No,,,1,10,33,No
+CUST-0065,Starter,Monthly,Manufacturing,201-500,60,285.65,Direct Sales,North America,2022-11-12,Yes,2022-11-20,Poor Support,13,3,46,No
+CUST-0066,Starter,Annual,Education,51-200,55,224.31,Organic Search,North America,2024-06-28,Yes,2024-07-21,Poor Support,12,1,12,No
+CUST-0067,Business,Annual,Media,1-10,7,321.38,Paid Ads,North America,2023-09-28,No,,,4,8,30,No
+CUST-0068,Professional,Annual,Education,1-10,1,67.15,Referral,Asia Pacific,2025-12-02,No,,,7,3,29,No
+CUST-0069,Starter,Annual,Media,1-10,2,28.35,Organic Search,Europe,2023-07-30,Yes,2024-09-17,Missing Features,1,2,25,No
+CUST-0070,Business,Monthly,Technology,51-200,64,2079.55,Organic Search,North America,2022-08-25,Yes,2022-08-27,No Longer Needed,3,1,28,No
+CUST-0071,Enterprise,Monthly,Retail,201-500,58,4765.45,Organic Search,Europe,2022-01-22,No,,,4,10,42,No
+CUST-0072,Starter,Monthly,Consulting,51-200,31,159.5,Organic Search,North America,2024-06-21,No,,,7,10,81,No
+CUST-0073,Professional,Monthly,Healthcare,201-500,106,1323.25,Referral,North America,2025-05-20,No,,,7,2,87,Yes
+CUST-0074,Starter,Monthly,Legal,51-200,42,207.35,Paid Ads,North America,2023-12-14,Yes,2024-12-03,Company Closed,12,3,10,No
+CUST-0075,Professional,Monthly,Retail,1-10,6,138.25,Paid Ads,North America,2022-12-30,No,,,5,1,49,No
+CUST-0076,Professional,Annual,Healthcare,201-500,56,621.14,Referral,Europe,2024-03-03,No,,,2,5,87,No
+CUST-0077,Enterprise,Monthly,Media,51-200,52,4316.35,Partner,Europe,2023-05-01,No,,,4,7,88,No
+CUST-0078,Starter,Annual,Media,51-200,24,109.69,Partner,Europe,2023-02-21,Yes,2025-09-09,Budget Cuts,2,4,16,No
+CUST-0079,Business,Monthly,Healthcare,51-200,40,1363.15,Social Media,North America,2024-01-06,No,,,0,4,29,No
+CUST-0080,Starter,Monthly,Healthcare,11-50,5,46.4,Organic Search,Asia Pacific,2025-03-05,Yes,2025-04-06,No Longer Needed,0,6,20,No
+CUST-0081,Business,Annual,Finance,11-50,24,752.72,Organic Search,Asia Pacific,2024-01-17,No,,,2,6,86,No
+CUST-0082,Starter,Annual,Technology,1-10,1,24.65,Social Media,Europe,2024-06-19,Yes,2025-06-04,Budget Cuts,14,2,22,No
+CUST-0083,Professional,Monthly,Education,1-10,5,126.4,Paid Ads,Asia Pacific,2025-09-12,No,,,6,9,56,No
+CUST-0084,Business,Monthly,Real Estate,201-500,71,2288.5,Referral,Europe,2023-01-21,Yes,2024-01-17,Missing Features,6,5,29,No
+CUST-0085,Starter,Monthly,Real Estate,11-50,21,116.0,Partner,Latin America,2025-01-04,Yes,2025-03-14,Company Closed,13,2,42,No
+CUST-0086,Business,Monthly,Technology,11-50,27,975.1,Partner,Europe,2024-07-06,No,,,9,7,35,No
+CUST-0087,Professional,Annual,Education,51-200,17,228.31,Direct Sales,Europe,2024-05-09,No,,,2,4,88,No
+CUST-0088,Starter,Monthly,Consulting,51-200,76,355.25,Referral,Asia Pacific,2024-12-15,Yes,2025-05-29,Budget Cuts,7,3,20,No
+CUST-0089,Professional,Annual,Healthcare,201-500,75,812.51,Organic Search,Asia Pacific,2022-11-21,Yes,2023-10-01,Poor Support,12,6,20,No
+CUST-0090,Business,Annual,Healthcare,51-200,67,1843.73,Paid Ads,Europe,2022-03-28,Yes,2022-11-20,Switched Competitor,7,1,36,No
+CUST-0091,Enterprise,Annual,Media,11-50,20,1632.98,Referral,North America,2024-10-31,Yes,2025-02-22,Company Closed,13,2,42,No
+CUST-0092,Starter,Monthly,Consulting,1-10,5,46.4,Partner,Asia Pacific,2025-03-16,No,,,7,7,41,No
+CUST-0093,Starter,Monthly,Manufacturing,1-10,7,55.1,Direct Sales,North America,2025-10-30,No,,,2,10,63,No
+CUST-0094,Business,Monthly,Education,500+,234,7154.05,Partner,North America,2022-07-29,Yes,2025-09-30,Poor Support,4,6,14,No
+CUST-0095,Professional,Monthly,Finance,11-50,14,233.05,Paid Ads,North America,2022-10-25,Yes,2023-04-09,Budget Cuts,5,6,11,No
+CUST-0096,Starter,Monthly,Legal,11-50,15,89.9,Direct Sales,North America,2023-08-31,Yes,2023-09-26,Price Too High,12,1,12,No
+CUST-0097,Enterprise,Monthly,Education,51-200,31,2744.5,Organic Search,North America,2023-10-16,No,,,1,1,22,No
+CUST-0098,Professional,Annual,Consulting,1-10,8,137.66,Organic Search,North America,2025-11-28,Yes,2025-12-14,Company Closed,10,6,43,No
+CUST-0099,Enterprise,Monthly,Manufacturing,11-50,6,873.25,Organic Search,Asia Pacific,2022-08-19,No,,,3,4,70,No
+CUST-0100,Business,Monthly,Real Estate,11-50,17,676.6,Paid Ads,Europe,2023-06-11,No,,,1,4,17,No
+CUST-0101,Starter,Monthly,Legal,1-10,2,33.35,Organic Search,North America,2024-12-03,Yes,2025-01-28,Company Closed,6,3,15,No
+CUST-0102,Professional,Monthly,Consulting,500+,62,801.85,Referral,Latin America,2023-11-03,No,,,11,7,88,No
+CUST-0103,Professional,Monthly,Consulting,1-10,4,114.55,Social Media,Europe,2024-04-24,No,,,0,6,32,No
+CUST-0104,Business,Monthly,Education,11-50,17,676.6,Organic Search,Europe,2024-11-30,Yes,2025-05-31,Budget Cuts,12,1,30,No
+CUST-0105,Professional,Monthly,Manufacturing,201-500,42,564.85,Paid Ads,Latin America,2023-12-21,No,,,6,5,53,Yes
+CUST-0106,Starter,Monthly,Retail,1-10,1,29.0,Referral,Asia Pacific,2024-11-18,Yes,2025-02-24,Poor Support,4,3,20,No
+CUST-0107,Business,Monthly,Legal,500+,139,4318.3,Referral,Europe,2022-08-18,Yes,2024-05-09,No Longer Needed,11,2,24,No
+CUST-0108,Business,Annual,Consulting,51-200,30,904.95,Organic Search,North America,2025-08-16,No,,,11,5,48,No
+CUST-0109,Business,Annual,Finance,51-200,16,549.74,Organic Search,Asia Pacific,2022-11-03,No,,,0,9,57,No
+CUST-0110,Professional,Annual,Retail,201-500,58,641.28,Referral,Europe,2023-10-02,Yes,2025-05-01,Missing Features,12,3,38,No
+CUST-0111,Starter,Annual,Consulting,11-50,5,39.44,Partner,Europe,2022-12-22,Yes,2023-11-12,Switched Competitor,15,5,29,No
+CUST-0112,Professional,Monthly,Finance,201-500,42,564.85,Direct Sales,North America,2022-01-27,Yes,2022-05-07,Budget Cuts,7,2,40,No
+CUST-0113,Business,Monthly,Consulting,11-50,20,766.15,Referral,North America,2023-06-10,Yes,2023-10-31,Company Closed,3,4,22,No
+CUST-0114,Starter,Monthly,Technology,500+,235,1046.9,Referral,Asia Pacific,2022-06-06,Yes,2022-06-19,Company Closed,11,1,23,No
+CUST-0115,Starter,Annual,Legal,201-500,31,135.57,Organic Search,Latin America,2024-08-28,No,,,0,5,75,No
+CUST-0116,Professional,Monthly,Technology,51-200,16,256.75,Organic Search,North America,2025-09-03,No,,,0,2,25,No
+CUST-0117,Professional,Annual,Media,51-200,25,308.89,Paid Ads,Asia Pacific,2024-03-13,Yes,2025-06-14,Budget Cuts,0,2,28,No
+CUST-0118,Professional,Monthly,Manufacturing,11-50,17,268.6,Partner,Europe,2024-12-31,Yes,2025-03-14,No Longer Needed,0,5,25,No
+CUST-0119,Professional,Monthly,Education,11-50,28,398.95,Organic Search,North America,2022-11-01,No,,,9,8,44,No
+CUST-0120,Professional,Annual,Finance,1-10,2,77.22,Partner,North America,2022-03-26,No,,,3,4,22,No
+CUST-0121,Starter,Annual,Media,11-50,32,139.27,Organic Search,North America,2025-07-18,No,,,6,2,81,No
+CUST-0122,Business,Monthly,Manufacturing,51-200,72,2318.35,Paid Ads,North America,2024-07-07,No,,,4,7,50,Yes
+CUST-0123,Starter,Annual,Healthcare,51-200,26,117.09,Organic Search,Asia Pacific,2024-07-13,No,,,4,4,48,No
+CUST-0124,Professional,Monthly,Legal,51-200,71,908.5,Referral,North America,2022-12-15,No,,,2,5,31,No
+CUST-0125,Business,Annual,Legal,1-10,4,245.27,Paid Ads,Europe,2025-03-12,No,,,11,6,36,Yes
+CUST-0126,Professional,Monthly,Healthcare,11-50,20,304.15,Organic Search,North America,2023-06-14,No,,,1,5,40,Yes
+CUST-0127,Starter,Monthly,Consulting,11-50,27,142.1,Paid Ads,North America,2024-12-10,Yes,2025-01-15,Company Closed,3,3,38,No
+CUST-0128,Starter,Monthly,Retail,201-500,46,224.75,Paid Ads,Asia Pacific,2022-12-30,Yes,2023-04-24,No Longer Needed,10,2,33,No
+CUST-0129,Starter,Monthly,Finance,51-200,31,159.5,Referral,North America,2022-08-24,Yes,2022-09-27,Missing Features,10,4,22,No
+CUST-0130,Professional,Monthly,Manufacturing,1-10,8,161.95,Organic Search,Latin America,2025-07-04,No,,,6,1,68,No
+CUST-0131,Business,Annual,Legal,11-50,6,296.01,Partner,Latin America,2025-01-02,No,,,11,9,36,No
+CUST-0132,Starter,Annual,Consulting,1-10,8,50.53,Social Media,North America,2025-10-20,No,,,7,3,90,No
+CUST-0133,Enterprise,Monthly,Consulting,1-10,1,499.0,Referral,North America,2025-03-11,No,,,7,8,22,No
+CUST-0134,Business,Annual,Manufacturing,51-200,71,1945.22,Referral,Latin America,2022-02-15,Yes,2025-07-10,Missing Features,11,5,31,No
+CUST-0135,Professional,Monthly,Retail,11-50,25,363.4,Paid Ads,Asia Pacific,2022-08-16,No,,,5,9,85,No
+CUST-0136,Professional,Annual,Technology,500+,106,1124.76,Partner,North America,2022-03-06,No,,,4,4,87,No
+CUST-0137,Starter,Annual,Real Estate,11-50,9,54.23,Organic Search,North America,2023-05-07,Yes,2024-02-16,Poor Support,4,2,41,No
+CUST-0138,Starter,Monthly,Healthcare,11-50,21,116.0,Direct Sales,Europe,2022-08-01,Yes,2022-09-08,Price Too High,1,3,19,No
+CUST-0139,Starter,Monthly,Finance,11-50,5,46.4,Referral,North America,2025-01-06,Yes,2025-12-19,Budget Cuts,7,3,22,No
+CUST-0140,Starter,Monthly,Retail,201-500,131,594.5,Partner,North America,2022-02-21,Yes,2022-07-22,Company Closed,9,3,16,No
+CUST-0141,Business,Annual,Legal,51-200,18,600.48,Paid Ads,North America,2024-03-17,No,,,8,4,33,No
+CUST-0142,Starter,Annual,Education,51-200,28,124.48,Social Media,North America,2024-08-30,No,,,8,3,32,No
+CUST-0143,Business,Annual,Finance,1-10,7,321.38,Organic Search,North America,2025-09-28,No,,,12,1,43,No
+CUST-0144,Starter,Monthly,Real Estate,1-10,6,50.75,Organic Search,North America,2023-04-02,Yes,2023-07-22,Missing Features,3,1,44,No
+CUST-0145,Professional,Annual,Finance,11-50,8,137.66,Direct Sales,North America,2023-12-17,Yes,2024-11-17,Poor Support,3,3,30,No
+CUST-0146,Enterprise,Monthly,Legal,11-50,15,1546.9,Organic Search,North America,2022-06-27,No,,,1,5,61,No
+CUST-0147,Starter,Annual,Manufacturing,1-10,6,43.14,Paid Ads,North America,2023-10-05,Yes,2023-11-21,Price Too High,5,3,15,No
+CUST-0148,Enterprise,Monthly,Media,51-200,73,5888.2,Organic Search,Europe,2025-02-26,No,,,5,2,54,No
+CUST-0149,Professional,Monthly,Manufacturing,1-10,1,79.0,Direct Sales,North America,2025-07-28,No,,,11,6,74,No
+CUST-0150,Professional,Monthly,Manufacturing,11-50,26,375.25,Organic Search,Latin America,2023-07-02,Yes,2024-02-24,Price Too High,13,1,29,No
+CUST-0151,Starter,Monthly,Retail,1-10,5,46.4,Social Media,North America,2024-05-26,Yes,2024-12-06,No Longer Needed,7,5,15,No
+CUST-0152,Business,Annual,Retail,500+,199,5192.9,Partner,North America,2023-06-09,Yes,2024-08-22,Poor Support,4,5,36,No
+CUST-0153,Starter,Monthly,Retail,1-10,6,50.75,Partner,North America,2025-05-09,Yes,2025-11-30,Budget Cuts,8,4,18,No
+CUST-0154,Professional,Annual,Legal,1-10,1,67.15,Partner,Europe,2024-08-11,Yes,2025-02-26,Poor Support,1,5,14,No
+CUST-0155,Starter,Monthly,Consulting,500+,230,1025.15,Referral,Asia Pacific,2022-10-14,Yes,2024-04-03,Price Too High,6,2,35,No
+CUST-0156,Business,Monthly,Healthcare,11-50,7,378.1,Organic Search,North America,2024-09-20,No,,,4,5,83,No
+CUST-0157,Professional,Annual,Education,1-10,5,107.44,Direct Sales,Europe,2023-08-06,No,,,9,2,80,No
+CUST-0158,Enterprise,Monthly,Technology,11-50,20,1921.15,Organic Search,Latin America,2023-04-18,No,,,6,2,35,No
+CUST-0159,Starter,Annual,Manufacturing,51-200,66,264.99,Referral,Asia Pacific,2025-10-25,No,,,8,8,30,No
+CUST-0160,Professional,Annual,Legal,51-200,71,772.22,Organic Search,Asia Pacific,2025-01-07,No,,,9,5,93,No
+CUST-0161,Business,Annual,Education,1-10,4,245.27,Partner,Europe,2024-12-11,Yes,2025-04-19,Price Too High,0,6,28,No
+CUST-0162,Starter,Monthly,Finance,500+,150,677.15,Paid Ads,Europe,2022-08-09,Yes,2023-11-26,Budget Cuts,0,3,44,No
+CUST-0163,Starter,Annual,Manufacturing,1-10,2,28.35,Paid Ads,Asia Pacific,2025-01-28,No,,,3,8,20,No
+CUST-0164,Starter,Annual,Healthcare,500+,220,834.4,Organic Search,Europe,2023-08-19,Yes,2025-06-11,Switched Competitor,4,3,12,No
+CUST-0165,Starter,Annual,Real Estate,201-500,34,146.67,Organic Search,Asia Pacific,2024-07-15,No,,,12,5,60,No
+CUST-0166,Starter,Monthly,Healthcare,1-10,1,29.0,Social Media,Europe,2023-09-18,Yes,2025-01-25,No Longer Needed,7,5,20,No
+CUST-0167,Starter,Annual,Legal,51-200,40,168.85,Organic Search,North America,2024-12-24,No,,,10,6,35,No
+CUST-0168,Business,Monthly,Legal,11-50,29,1034.8,Partner,Europe,2023-04-05,Yes,2023-04-29,No Longer Needed,12,6,45,No
+CUST-0169,Business,Annual,Consulting,11-50,5,270.64,Paid Ads,North America,2023-12-06,No,,,0,1,55,Yes
+CUST-0170,Business,Monthly,Media,11-50,32,1124.35,Social Media,Asia Pacific,2024-10-17,No,,,1,1,91,No
+CUST-0171,Starter,Monthly,Finance,1-10,7,55.1,Organic Search,Europe,2022-09-18,Yes,2023-07-31,Budget Cuts,3,2,24,No
+CUST-0172,Business,Monthly,Healthcare,1-10,5,318.4,Referral,North America,2022-07-10,Yes,2024-05-08,No Longer Needed,14,3,38,No
+CUST-0173,Professional,Annual,Media,1-10,6,117.51,Social Media,Asia Pacific,2024-09-14,No,,,12,9,38,No
+CUST-0174,Enterprise,Annual,Education,201-500,65,4495.99,Paid Ads,North America,2024-11-30,No,,,10,2,91,No
+CUST-0175,Business,Annual,Consulting,51-200,50,1412.4,Direct Sales,North America,2022-10-11,No,,,12,8,26,No
+CUST-0176,Starter,Monthly,Media,500+,205,916.4,Social Media,North America,2023-08-06,Yes,2023-09-11,Budget Cuts,7,3,19,No
+CUST-0177,Professional,Monthly,Technology,500+,239,2899.3,Partner,Asia Pacific,2024-12-06,Yes,2025-11-09,Poor Support,4,6,14,No
+CUST-0178,Professional,Annual,Manufacturing,11-50,31,369.33,Direct Sales,Asia Pacific,2024-09-11,No,,,4,6,81,No
+CUST-0179,Starter,Monthly,Consulting,51-200,67,316.1,Referral,Europe,2024-06-25,No,,,3,10,26,No
+CUST-0180,Professional,Annual,Real Estate,51-200,29,349.18,Referral,North America,2022-10-12,Yes,2025-03-25,Budget Cuts,2,5,42,No
+CUST-0181,Professional,Monthly,Education,1-10,4,114.55,Paid Ads,North America,2024-02-08,Yes,2024-04-23,Price Too High,9,4,44,No
+CUST-0182,Professional,Annual,Real Estate,51-200,76,822.59,Partner,Europe,2024-05-02,No,,,9,6,37,No
+CUST-0183,Starter,Annual,Education,201-500,83,327.84,Partner,North America,2023-10-01,Yes,2025-01-06,Budget Cuts,8,4,26,No
+CUST-0184,Starter,Monthly,Manufacturing,1-10,7,55.1,Partner,Europe,2024-11-20,No,,,8,2,63,No
+CUST-0185,Professional,Annual,Media,201-500,96,1024.04,Referral,North America,2025-11-17,No,,,3,8,48,No
+CUST-0186,Business,Monthly,Finance,1-10,6,348.25,Partner,Asia Pacific,2025-06-25,Yes,2025-11-28,Budget Cuts,3,2,17,No
+CUST-0187,Professional,Monthly,Education,1-10,4,114.55,Paid Ads,Asia Pacific,2024-09-10,Yes,2024-11-30,Price Too High,9,3,24,No
+CUST-0188,Business,Monthly,Healthcare,11-50,28,1004.95,Referral,Asia Pacific,2022-08-11,Yes,2024-12-24,Switched Competitor,13,4,15,No
+CUST-0189,Starter,Monthly,Consulting,201-500,141,638.0,Direct Sales,North America,2025-09-11,No,,,11,4,88,No
+CUST-0190,Professional,Monthly,Consulting,51-200,70,896.65,Social Media,North America,2023-07-10,No,,,7,10,63,No
+CUST-0191,Starter,Monthly,Media,11-50,30,155.15,Partner,North America,2022-12-21,Yes,2023-01-25,No Longer Needed,15,2,23,No
+CUST-0192,Business,Monthly,Real Estate,51-200,74,2378.05,Social Media,North America,2022-03-16,No,,,8,10,46,Yes
+CUST-0193,Enterprise,Monthly,Retail,11-50,33,2894.2,Social Media,North America,2024-09-18,No,,,0,1,43,Yes
+CUST-0194,Starter,Annual,Finance,500+,225,852.89,Referral,Europe,2023-02-27,No,,,6,9,50,Yes
+CUST-0195,Starter,Annual,Education,1-10,3,32.05,Paid Ads,North America,2023-10-21,Yes,2024-07-19,Budget Cuts,4,5,33,No
+CUST-0196,Professional,Annual,Media,11-50,20,258.53,Paid Ads,Europe,2025-03-06,No,,,6,7,95,No
+CUST-0197,Enterprise,Monthly,Consulting,1-10,1,499.0,Organic Search,Asia Pacific,2022-03-25,No,,,8,7,32,No
+CUST-0198,Starter,Monthly,Healthcare,51-200,21,116.0,Referral,Europe,2023-04-19,Yes,2025-01-15,Missing Features,0,1,15,No
+CUST-0199,Professional,Annual,Legal,1-10,4,97.37,Paid Ads,North America,2025-03-03,No,,,2,4,36,No
+CUST-0200,Professional,Annual,Education,201-500,35,409.62,Organic Search,North America,2022-10-24,Yes,2024-11-02,Missing Features,15,1,21,No
+CUST-0201,Starter,Monthly,Media,11-50,13,81.2,Partner,Europe,2023-06-28,Yes,2024-10-13,Budget Cuts,15,1,44,No
+CUST-0202,Starter,Monthly,Legal,11-50,30,155.15,Partner,Latin America,2023-10-06,Yes,2023-11-04,Price Too High,3,1,25,No
+CUST-0203,Business,Monthly,Consulting,1-10,8,407.95,Direct Sales,Latin America,2023-07-30,Yes,2025-04-06,Budget Cuts,1,5,12,No
+CUST-0204,Starter,Monthly,Education,51-200,64,303.05,Partner,North America,2024-05-19,Yes,2024-07-20,Poor Support,11,1,49,No
+CUST-0205,Business,Annual,Healthcare,51-200,67,1843.73,Organic Search,Europe,2023-12-17,No,,,12,1,85,Yes
+CUST-0206,Starter,Monthly,Healthcare,201-500,72,337.85,Organic Search,Europe,2024-03-23,Yes,2024-07-02,Switched Competitor,5,6,33,No
+CUST-0207,Business,Monthly,Real Estate,1-10,1,199.0,Partner,North America,2023-04-02,Yes,2023-12-15,No Longer Needed,12,2,16,No
+CUST-0208,Starter,Monthly,Consulting,11-50,5,46.4,Referral,North America,2025-01-19,Yes,2025-07-03,Missing Features,8,4,21,No
+CUST-0209,Starter,Annual,Healthcare,51-200,46,191.04,Social Media,Europe,2022-05-05,Yes,2022-07-30,Company Closed,2,1,13,No
+CUST-0210,Enterprise,Monthly,Healthcare,51-200,72,5813.35,Social Media,North America,2022-09-22,Yes,2025-05-26,Price Too High,13,1,17,No
+CUST-0211,Enterprise,Annual,Education,201-500,48,3414.41,Paid Ads,North America,2025-06-30,No,,,12,2,23,No
+CUST-0212,Business,Annual,Retail,1-10,1,169.15,Partner,North America,2024-01-08,No,,,1,6,60,No
+CUST-0213,Business,Annual,Manufacturing,500+,209,5446.63,Partner,North America,2023-05-20,No,,,4,2,31,No
+CUST-0214,Starter,Monthly,Legal,11-50,17,98.6,Referral,North America,2024-09-23,Yes,2025-08-11,No Longer Needed,4,4,10,No
+CUST-0215,Starter,Monthly,Consulting,11-50,21,116.0,Direct Sales,Asia Pacific,2025-01-09,Yes,2025-06-29,Switched Competitor,15,5,27,No
+CUST-0216,Starter,Monthly,Finance,11-50,15,89.9,Organic Search,North America,2024-07-20,Yes,2024-09-16,Poor Support,11,4,20,No
+CUST-0217,Professional,Monthly,Healthcare,51-200,46,612.25,Partner,North America,2024-04-05,No,,,3,7,39,No
+CUST-0218,Starter,Monthly,Finance,51-200,22,120.35,Direct Sales,North America,2022-10-15,Yes,2024-01-25,Company Closed,3,3,27,No
+CUST-0219,Starter,Annual,Manufacturing,1-10,8,50.53,Organic Search,North America,2023-08-22,No,,,6,8,32,No
+CUST-0220,Professional,Monthly,Education,1-10,1,79.0,Social Media,North America,2023-09-26,Yes,2025-05-11,Price Too High,9,5,44,No
+CUST-0221,Business,Annual,Real Estate,1-10,3,219.9,Organic Search,North America,2025-06-28,No,,,7,8,43,No
+CUST-0222,Professional,Monthly,Media,51-200,47,624.1,Referral,Europe,2024-10-03,No,,,6,8,63,Yes
+CUST-0223,Starter,Monthly,Manufacturing,201-500,68,320.45,Paid Ads,North America,2025-04-01,Yes,2025-10-19,Switched Competitor,9,4,42,No
+CUST-0224,Enterprise,Annual,Healthcare,51-200,72,4941.35,Social Media,Latin America,2025-02-01,Yes,2025-02-13,Missing Features,0,1,11,No
+CUST-0225,Professional,Annual,Consulting,11-50,27,329.03,Organic Search,North America,2025-11-17,No,,,7,4,39,No
+CUST-0226,Professional,Monthly,Retail,51-200,64,825.55,Organic Search,Europe,2025-04-18,No,,,10,4,87,No
+CUST-0227,Starter,Monthly,Retail,1-10,6,50.75,Referral,Europe,2024-09-10,Yes,2024-10-27,Missing Features,5,3,39,No
+CUST-0228,Starter,Annual,Consulting,11-50,10,57.93,Organic Search,Europe,2024-01-12,No,,,8,6,46,Yes
+CUST-0229,Enterprise,Monthly,Manufacturing,201-500,118,9256.45,Organic Search,Europe,2024-04-06,No,,,0,10,85,No
+CUST-0230,Starter,Monthly,Finance,11-50,24,129.05,Referral,North America,2023-06-10,Yes,2023-10-22,Switched Competitor,13,1,31,No
+CUST-0231,Starter,Monthly,Education,51-200,33,168.2,Direct Sales,North America,2023-11-16,No,,,4,9,52,No
+CUST-0232,Professional,Monthly,Retail,51-200,44,588.55,Organic Search,Europe,2025-06-09,No,,,9,5,71,No
+CUST-0233,Professional,Monthly,Real Estate,201-500,112,1394.35,Partner,North America,2025-02-07,No,,,0,8,17,No
+CUST-0234,Business,Monthly,Consulting,51-200,55,1810.9,Paid Ads,North America,2024-04-03,Yes,2024-12-04,Poor Support,2,2,15,No
+CUST-0235,Business,Annual,Consulting,11-50,15,524.37,Paid Ads,North America,2024-05-09,No,,,6,9,23,Yes
+CUST-0236,Starter,Monthly,Media,201-500,45,220.4,Paid Ads,Europe,2023-07-10,Yes,2023-07-12,Company Closed,7,3,49,No
+CUST-0237,Professional,Monthly,Consulting,500+,109,1358.8,Direct Sales,Europe,2022-08-15,No,,,0,3,30,No
+CUST-0238,Business,Monthly,Real Estate,51-200,29,1034.8,Referral,North America,2023-04-29,No,,,12,1,86,No
+CUST-0239,Business,Monthly,Media,11-50,34,1184.05,Partner,Latin America,2022-04-16,Yes,2023-07-02,Missing Features,8,3,24,No
+CUST-0240,Starter,Annual,Legal,1-10,4,35.74,Social Media,Asia Pacific,2025-02-15,No,,,6,2,23,No
+CUST-0241,Starter,Monthly,Technology,51-200,66,311.75,Referral,Asia Pacific,2023-09-09,Yes,2023-10-29,Budget Cuts,1,4,15,No
+CUST-0242,Business,Annual,Manufacturing,11-50,10,397.5,Paid Ads,Asia Pacific,2023-11-02,No,,,1,8,38,No
+CUST-0243,Enterprise,Monthly,Retail,201-500,122,9555.85,Organic Search,North America,2024-10-07,No,,,4,7,94,Yes
+CUST-0244,Starter,Monthly,Technology,51-200,23,124.7,Paid Ads,Europe,2025-04-21,Yes,2025-05-07,Poor Support,7,6,18,No
+CUST-0245,Business,Annual,Manufacturing,1-10,1,169.15,Organic Search,North America,2025-11-28,No,,,5,3,39,No
+CUST-0246,Professional,Monthly,Consulting,1-10,6,138.25,Referral,Europe,2024-04-15,Yes,2024-06-23,Missing Features,5,4,14,No
+CUST-0247,Business,Annual,Media,500+,251,6512.27,Social Media,Latin America,2025-11-07,No,,,10,6,38,No
+CUST-0248,Starter,Annual,Healthcare,201-500,111,431.37,Direct Sales,Europe,2024-03-22,Yes,2024-11-18,Company Closed,5,1,36,No
+CUST-0249,Professional,Monthly,Finance,1-10,6,138.25,Direct Sales,North America,2025-04-18,Yes,2025-10-15,Poor Support,5,3,36,No
+CUST-0250,Business,Monthly,Education,1-10,1,199.0,Referral,North America,2025-10-14,No,,,1,10,69,No
+CUST-0251,Starter,Annual,Legal,11-50,31,135.57,Partner,Europe,2022-09-28,Yes,2025-01-12,Price Too High,0,6,40,No
+CUST-0252,Business,Annual,Legal,11-50,19,625.86,Social Media,North America,2024-05-12,Yes,2025-10-19,Poor Support,15,2,47,No
+CUST-0253,Professional,Monthly,Legal,11-50,32,446.35,Organic Search,North America,2022-11-29,Yes,2024-01-13,Company Closed,7,1,20,No
+CUST-0254,Starter,Annual,Media,11-50,12,65.32,Organic Search,Europe,2025-05-18,No,,,0,9,50,Yes
+CUST-0255,Business,Monthly,Real Estate,1-10,1,199.0,Organic Search,Europe,2022-03-25,Yes,2022-04-20,Budget Cuts,14,5,28,No
+CUST-0256,Business,Monthly,Education,11-50,7,378.1,Organic Search,North America,2023-03-07,No,,,10,10,58,Yes
+CUST-0257,Starter,Annual,Retail,500+,285,1074.74,Social Media,North America,2024-09-27,No,,,2,9,91,Yes
+CUST-0258,Starter,Annual,Real Estate,51-200,31,135.57,Referral,Europe,2022-04-19,Yes,2024-04-18,No Longer Needed,4,5,36,No
+CUST-0259,Professional,Annual,Media,201-500,143,1497.45,Partner,Asia Pacific,2025-07-02,No,,,3,1,84,No
+CUST-0260,Professional,Monthly,Real Estate,500+,193,2354.2,Organic Search,North America,2023-07-30,Yes,2025-02-05,Switched Competitor,3,3,39,No
+CUST-0261,Professional,Annual,Legal,1-10,5,107.44,Organic Search,North America,2024-09-08,No,,,1,9,95,No
+CUST-0262,Business,Monthly,Manufacturing,1-10,8,407.95,Partner,North America,2024-02-05,Yes,2025-05-14,Budget Cuts,14,6,19,No
+CUST-0263,Business,Annual,Healthcare,11-50,8,346.76,Partner,Europe,2025-08-08,No,,,3,6,43,No
+CUST-0264,Starter,Monthly,Media,51-200,52,250.85,Organic Search,North America,2025-02-14,No,,,2,7,42,No
+CUST-0265,Professional,Monthly,Manufacturing,51-200,45,600.4,Paid Ads,North America,2025-03-22,No,,,11,1,56,No
+CUST-0266,Starter,Annual,Retail,11-50,22,102.3,Referral,North America,2022-04-14,Yes,2022-07-08,Budget Cuts,5,4,20,No
+CUST-0267,Enterprise,Monthly,Consulting,1-10,3,648.7,Paid Ads,Asia Pacific,2023-05-07,No,,,3,1,41,No
+CUST-0268,Professional,Annual,Retail,201-500,49,550.63,Organic Search,North America,2022-09-26,No,,,12,7,46,No
+CUST-0269,Professional,Monthly,Consulting,1-10,3,102.7,Social Media,Asia Pacific,2025-04-03,Yes,2025-12-11,No Longer Needed,3,2,20,No
+CUST-0270,Professional,Monthly,Media,51-200,66,849.25,Referral,North America,2023-02-25,Yes,2025-08-03,Price Too High,6,2,37,No
+CUST-0271,Professional,Monthly,Technology,11-50,13,221.2,Organic Search,North America,2025-02-24,Yes,2025-03-05,Company Closed,6,4,19,No
+CUST-0272,Starter,Monthly,Legal,201-500,103,472.7,Partner,Europe,2024-02-21,Yes,2024-05-27,Budget Cuts,11,1,14,No
+CUST-0273,Professional,Annual,Manufacturing,1-10,6,117.51,Organic Search,Latin America,2025-12-31,No,,,2,9,20,No
+CUST-0274,Professional,Annual,Finance,51-200,41,470.05,Partner,Europe,2025-08-13,No,,,2,8,37,No
+CUST-0275,Business,Monthly,Education,1-10,6,348.25,Organic Search,Latin America,2024-10-01,No,,,7,7,30,No
+CUST-0276,Starter,Monthly,Legal,201-500,50,242.15,Referral,Asia Pacific,2024-01-28,No,,,0,3,40,Yes
+CUST-0277,Enterprise,Monthly,Education,11-50,31,2744.5,Referral,Europe,2023-02-02,Yes,2023-05-07,Switched Competitor,3,1,12,No
+CUST-0278,Business,Monthly,Finance,51-200,48,1601.95,Organic Search,Europe,2025-10-17,No,,,7,4,52,No
+CUST-0279,Starter,Monthly,Finance,1-10,7,55.1,Organic Search,North America,2025-09-09,No,,,4,3,93,No
+CUST-0280,Starter,Monthly,Healthcare,1-10,3,37.7,Direct Sales,Europe,2025-05-01,No,,,2,6,66,No
+CUST-0281,Business,Annual,Legal,11-50,25,778.09,Partner,North America,2025-06-11,No,,,4,3,90,No
+CUST-0282,Professional,Monthly,Finance,11-50,15,244.9,Partner,North America,2025-05-03,No,,,1,6,86,Yes
+CUST-0283,Professional,Monthly,Manufacturing,51-200,18,280.45,Paid Ads,North America,2022-11-22,Yes,2025-09-25,Switched Competitor,6,2,11,No
+CUST-0284,Starter,Monthly,Manufacturing,201-500,82,381.35,Organic Search,North America,2024-11-10,No,,,10,4,84,Yes
+CUST-0285,Starter,Monthly,Healthcare,201-500,111,507.5,Social Media,North America,2025-12-13,No,,,9,7,73,No
+CUST-0286,Business,Annual,Finance,1-10,2,194.52,Organic Search,Latin America,2023-07-02,Yes,2023-09-25,Budget Cuts,1,2,39,No
+CUST-0287,Enterprise,Monthly,Manufacturing,51-200,71,5738.5,Referral,North America,2023-01-13,No,,,9,10,36,No
+CUST-0288,Business,Monthly,Technology,11-50,19,736.3,Organic Search,North America,2025-03-22,No,,,12,9,47,Yes
+CUST-0289,Professional,Monthly,Manufacturing,51-200,51,671.5,Organic Search,North America,2022-01-06,No,,,3,7,75,No
+CUST-0290,Business,Annual,Consulting,201-500,55,1539.27,Paid Ads,Latin America,2022-07-29,Yes,2024-05-29,Poor Support,8,2,34,No
+CUST-0291,Enterprise,Annual,Finance,51-200,16,1378.49,Social Media,North America,2023-01-12,No,,,9,6,31,No
+CUST-0292,Professional,Monthly,Technology,1-10,8,161.95,Direct Sales,North America,2023-07-03,Yes,2025-01-31,Switched Competitor,3,1,32,No
+CUST-0293,Professional,Monthly,Finance,11-50,24,351.55,Direct Sales,North America,2022-02-21,Yes,2022-08-11,Switched Competitor,8,1,35,No
+CUST-0294,Business,Monthly,Finance,51-200,51,1691.5,Referral,North America,2025-08-22,Yes,2025-11-14,Switched Competitor,1,4,25,No
+CUST-0295,Starter,Monthly,Manufacturing,201-500,34,172.55,Referral,Europe,2022-10-12,Yes,2022-10-29,Budget Cuts,6,4,12,No
+CUST-0296,Starter,Monthly,Education,201-500,146,659.75,Partner,North America,2023-10-19,Yes,2023-11-10,Price Too High,8,3,13,No
+CUST-0297,Business,Monthly,Technology,51-200,36,1243.75,Paid Ads,North America,2024-12-19,No,,,6,10,82,No
+CUST-0298,Starter,Monthly,Education,51-200,70,329.15,Direct Sales,Latin America,2023-06-28,Yes,2024-08-27,Budget Cuts,15,2,11,No
+CUST-0299,Business,Monthly,Retail,11-50,13,557.2,Organic Search,North America,2022-04-29,Yes,2022-07-15,Price Too High,6,6,43,No
+CUST-0300,Starter,Monthly,Manufacturing,11-50,23,124.7,Paid Ads,Europe,2025-06-06,No,,,11,10,44,No
+CUST-0301,Professional,Annual,Legal,201-500,108,1144.91,Organic Search,North America,2024-12-14,No,,,3,6,32,Yes
+CUST-0302,Business,Annual,Finance,11-50,19,625.86,Paid Ads,North America,2023-04-08,No,,,8,10,53,No
+CUST-0303,Business,Annual,Consulting,11-50,22,701.97,Social Media,Latin America,2022-01-24,Yes,2023-12-12,Poor Support,1,5,10,No
+CUST-0304,Professional,Annual,Media,11-50,29,349.18,Referral,North America,2022-12-03,Yes,2023-02-19,No Longer Needed,14,3,32,No
+CUST-0305,Business,Monthly,Manufacturing,201-500,99,3124.3,Partner,North America,2025-02-24,No,,,8,7,17,No
+CUST-0306,Business,Monthly,Legal,11-50,26,945.25,Organic Search,Europe,2024-12-15,No,,,4,6,41,No
+CUST-0307,Enterprise,Annual,Manufacturing,51-200,50,3541.65,Organic Search,North America,2025-02-09,No,,,9,9,36,No
+CUST-0308,Business,Annual,Consulting,11-50,21,676.6,Paid Ads,North America,2025-09-20,No,,,0,8,91,No
+CUST-0309,Starter,Annual,Manufacturing,1-10,7,46.83,Paid Ads,North America,2023-09-03,Yes,2024-01-09,Poor Support,5,2,41,No
+CUST-0310,Starter,Monthly,Legal,201-500,71,333.5,Direct Sales,Europe,2023-07-08,Yes,2024-02-11,No Longer Needed,1,3,14,No
+CUST-0311,Professional,Annual,Finance,500+,290,2978.1,Referral,North America,2024-02-15,No,,,9,9,39,No
+CUST-0312,Starter,Annual,Real Estate,201-500,36,154.06,Partner,Asia Pacific,2024-03-06,Yes,2024-09-01,Switched Competitor,4,5,42,No
+CUST-0313,Starter,Monthly,Education,51-200,74,346.55,Organic Search,Europe,2025-01-22,No,,,3,4,18,No
+CUST-0314,Starter,Annual,Media,1-10,8,50.53,Referral,Latin America,2024-10-07,No,,,3,2,22,No
+CUST-0315,Starter,Monthly,Education,11-50,13,81.2,Paid Ads,Europe,2025-03-23,Yes,2025-09-20,Company Closed,12,3,29,No
+CUST-0316,Professional,Annual,Finance,11-50,33,389.47,Partner,Latin America,2022-10-01,Yes,2025-09-06,Poor Support,11,6,37,No
+CUST-0317,Starter,Monthly,Finance,11-50,31,159.5,Partner,North America,2024-12-09,Yes,2025-04-11,Price Too High,6,3,26,No
+CUST-0318,Starter,Monthly,Retail,1-10,1,29.0,Social Media,Latin America,2025-02-06,Yes,2025-10-26,Company Closed,12,3,30,No
+CUST-0319,Starter,Annual,Legal,51-200,40,168.85,Organic Search,Europe,2022-07-16,Yes,2022-10-13,Switched Competitor,14,4,38,No
+CUST-0320,Professional,Annual,Legal,51-200,20,258.53,Organic Search,Europe,2023-12-19,No,,,10,9,34,No
+CUST-0321,Professional,Monthly,Education,1-10,2,90.85,Organic Search,North America,2025-03-11,Yes,2025-04-30,Company Closed,8,3,15,No
+CUST-0322,Professional,Annual,Consulting,51-200,34,399.54,Social Media,North America,2024-10-14,Yes,2024-12-11,Missing Features,11,6,12,No
+CUST-0323,Business,Monthly,Media,1-10,7,378.1,Partner,Asia Pacific,2023-10-18,No,,,5,9,55,No
+CUST-0324,Starter,Annual,Consulting,51-200,24,109.69,Organic Search,North America,2025-11-12,No,,,7,2,90,No
+CUST-0325,Professional,Annual,Technology,201-500,105,1114.69,Paid Ads,Europe,2022-03-28,Yes,2023-09-25,Budget Cuts,2,1,15,No
+CUST-0326,Business,Annual,Education,11-50,10,397.5,Partner,North America,2025-01-19,No,,,6,9,77,Yes
+CUST-0327,Professional,Monthly,Consulting,11-50,15,244.9,Partner,Asia Pacific,2022-05-04,Yes,2022-06-25,Company Closed,14,1,15,No
+CUST-0328,Professional,Monthly,Technology,11-50,13,221.2,Paid Ads,Europe,2024-08-30,No,,,2,4,71,No
+CUST-0329,Starter,Monthly,Legal,500+,297,1316.6,Partner,Latin America,2025-12-11,No,,,7,4,44,No
+CUST-0330,Professional,Monthly,Retail,51-200,51,671.5,Direct Sales,Asia Pacific,2024-03-17,No,,,7,4,84,No
+CUST-0331,Professional,Monthly,Education,51-200,30,422.65,Social Media,North America,2025-06-13,No,,,11,5,60,No
+CUST-0332,Professional,Monthly,Finance,51-200,77,979.6,Paid Ads,North America,2025-03-08,Yes,2025-06-10,Budget Cuts,3,2,40,No
+CUST-0333,Professional,Annual,Education,51-200,18,238.38,Partner,Asia Pacific,2024-04-05,Yes,2025-10-06,Missing Features,14,1,33,No
+CUST-0334,Starter,Annual,Finance,201-500,85,335.24,Organic Search,Europe,2023-10-13,Yes,2024-01-22,Budget Cuts,8,1,35,No
+CUST-0335,Professional,Monthly,Consulting,11-50,18,280.45,Social Media,North America,2022-09-07,Yes,2024-03-13,No Longer Needed,10,1,27,No
+CUST-0336,Business,Annual,Education,1-10,5,270.64,Organic Search,Europe,2023-07-14,Yes,2025-02-15,Company Closed,7,1,36,No
+CUST-0337,Starter,Monthly,Media,51-200,65,307.4,Paid Ads,Latin America,2022-11-22,Yes,2023-03-19,Price Too High,3,1,45,No
+CUST-0338,Starter,Annual,Technology,11-50,26,117.09,Partner,North America,2024-01-29,No,,,4,8,42,Yes
+CUST-0339,Starter,Monthly,Media,1-10,4,42.05,Organic Search,North America,2024-05-28,Yes,2025-01-20,Price Too High,0,4,13,No
+CUST-0340,Starter,Annual,Education,201-500,140,538.6,Organic Search,Europe,2022-06-30,Yes,2022-10-01,Budget Cuts,14,2,43,No
+CUST-0341,Starter,Monthly,Real Estate,201-500,41,203.0,Paid Ads,North America,2025-03-19,Yes,2025-06-24,No Longer Needed,12,1,40,No
+CUST-0342,Starter,Annual,Retail,201-500,78,309.36,Paid Ads,Europe,2024-08-15,Yes,2025-08-15,Switched Competitor,3,1,35,No
+CUST-0343,Business,Annual,Legal,11-50,12,448.25,Referral,Latin America,2023-05-23,Yes,2025-04-18,No Longer Needed,12,6,19,No
+CUST-0344,Professional,Monthly,Retail,11-50,32,446.35,Referral,Asia Pacific,2022-05-22,Yes,2023-06-15,Company Closed,3,3,29,No
+CUST-0345,Business,Annual,Education,1-10,4,245.27,Paid Ads,Europe,2022-09-26,No,,,4,2,93,No
+CUST-0346,Business,Monthly,Education,201-500,126,3930.25,Paid Ads,North America,2025-11-18,No,,,9,8,20,No
+CUST-0347,Professional,Annual,Media,51-200,17,228.31,Organic Search,Europe,2025-09-25,No,,,5,4,21,No
+CUST-0348,Business,Monthly,Technology,51-200,73,2348.2,Organic Search,Asia Pacific,2025-06-05,No,,,9,5,74,No
+CUST-0349,Business,Annual,Legal,11-50,29,879.58,Paid Ads,North America,2024-06-14,No,,,7,10,33,No
+CUST-0350,Professional,Monthly,Media,51-200,59,766.3,Social Media,North America,2022-02-27,Yes,2022-10-03,Switched Competitor,6,2,21,No
+CUST-0351,Starter,Annual,Retail,1-10,4,35.74,Paid Ads,North America,2024-07-21,Yes,2024-12-03,Missing Features,8,6,47,No
+CUST-0352,Starter,Monthly,Education,500+,130,590.15,Partner,Europe,2023-07-18,Yes,2024-05-11,Budget Cuts,5,4,23,No
+CUST-0353,Business,Annual,Healthcare,201-500,61,1691.5,Social Media,Europe,2025-04-02,Yes,2025-05-16,Missing Features,15,5,33,No
+CUST-0354,Business,Annual,Finance,1-10,8,346.76,Partner,North America,2022-06-25,Yes,2024-12-29,Poor Support,10,6,30,No
+CUST-0355,Starter,Annual,Healthcare,51-200,43,179.94,Organic Search,North America,2024-10-27,No,,,3,3,63,No
+CUST-0356,Starter,Annual,Media,11-50,6,43.14,Organic Search,North America,2022-09-13,Yes,2022-11-05,Poor Support,15,3,46,No
+CUST-0357,Starter,Annual,Healthcare,201-500,92,361.12,Organic Search,North America,2023-01-23,Yes,2023-06-03,Missing Features,13,1,38,No
+CUST-0358,Starter,Annual,Consulting,51-200,30,131.88,Referral,Europe,2025-02-24,No,,,1,7,39,No
+CUST-0359,Business,Monthly,Healthcare,201-500,118,3691.45,Direct Sales,Asia Pacific,2025-07-03,No,,,10,5,87,No
+CUST-0360,Starter,Annual,Consulting,1-10,2,28.35,Social Media,Europe,2022-08-07,No,,,11,6,20,No
+CUST-0361,Professional,Annual,Retail,1-10,7,127.59,Paid Ads,Europe,2024-06-08,No,,,12,7,31,No
+CUST-0362,Enterprise,Monthly,Healthcare,51-200,59,4840.3,Organic Search,North America,2023-09-21,No,,,0,3,90,No
+CUST-0363,Enterprise,Monthly,Technology,1-10,7,948.1,Social Media,North America,2024-03-06,No,,,2,6,41,No
+CUST-0364,Business,Monthly,Legal,11-50,17,676.6,Partner,North America,2022-04-05,Yes,2025-09-20,Price Too High,7,4,13,No
+CUST-0365,Starter,Monthly,Consulting,11-50,14,85.55,Partner,Latin America,2024-03-11,Yes,2024-06-07,Switched Competitor,9,2,14,No
+CUST-0366,Professional,Monthly,Education,51-200,52,683.35,Paid Ads,North America,2025-09-28,No,,,11,8,17,No
+CUST-0367,Starter,Annual,Consulting,1-10,5,39.44,Referral,North America,2023-07-29,No,,,1,3,80,No
+CUST-0368,Professional,Annual,Media,11-50,25,308.89,Partner,North America,2024-05-17,No,,,3,6,92,No
+CUST-0369,Enterprise,Monthly,Retail,11-50,25,2295.4,Direct Sales,North America,2025-03-09,Yes,2025-04-28,Switched Competitor,9,6,37,No
+CUST-0370,Starter,Monthly,Real Estate,201-500,117,533.6,Organic Search,North America,2024-07-19,Yes,2025-04-28,Price Too High,8,6,10,No
+CUST-0371,Starter,Monthly,Consulting,51-200,39,194.3,Referral,Latin America,2024-03-01,Yes,2024-04-17,Price Too High,13,1,22,No
+CUST-0372,Business,Monthly,Legal,11-50,29,1034.8,Paid Ads,Asia Pacific,2023-02-10,Yes,2025-10-14,Company Closed,12,1,34,No
+CUST-0373,Business,Monthly,Finance,1-10,4,288.55,Partner,Europe,2025-10-29,No,,,6,2,63,No
+CUST-0374,Starter,Monthly,Real Estate,201-500,139,629.3,Paid Ads,Asia Pacific,2022-01-08,Yes,2022-04-08,Missing Features,10,6,20,No
+CUST-0375,Starter,Annual,Legal,11-50,16,80.11,Organic Search,Europe,2022-05-12,Yes,2023-01-05,Missing Features,7,5,18,No
+CUST-0376,Enterprise,Annual,Healthcare,51-200,46,3287.16,Partner,North America,2023-03-09,Yes,2024-06-16,No Longer Needed,12,5,27,No
+CUST-0377,Starter,Monthly,Legal,11-50,26,137.75,Organic Search,Latin America,2023-09-22,Yes,2023-12-09,Poor Support,12,1,33,No
+CUST-0378,Business,Monthly,Manufacturing,11-50,5,318.4,Organic Search,Asia Pacific,2022-05-11,Yes,2023-11-07,Poor Support,10,6,31,No
+CUST-0379,Starter,Annual,Technology,201-500,62,250.2,Social Media,Asia Pacific,2023-07-22,Yes,2023-08-24,Missing Features,13,6,10,No
+CUST-0380,Business,Annual,Manufacturing,201-500,150,3949.65,Organic Search,North America,2024-04-07,No,,,7,9,67,No
+CUST-0381,Starter,Annual,Real Estate,201-500,126,486.84,Direct Sales,Asia Pacific,2022-08-26,No,,,11,5,74,No
+CUST-0382,Starter,Monthly,Retail,11-50,24,129.05,Organic Search,North America,2023-01-14,Yes,2025-09-22,Price Too High,11,1,16,No
+CUST-0383,Professional,Annual,Technology,1-10,4,97.37,Referral,North America,2025-02-27,Yes,2025-11-09,Switched Competitor,0,4,29,No
+CUST-0384,Enterprise,Monthly,Consulting,201-500,141,10978.0,Paid Ads,Europe,2022-09-24,No,,,6,2,49,No
+CUST-0385,Starter,Annual,Retail,201-500,142,546.0,Paid Ads,North America,2023-09-02,Yes,2023-09-30,No Longer Needed,13,2,31,No
+CUST-0386,Professional,Monthly,Real Estate,1-10,4,114.55,Referral,Latin America,2025-08-20,Yes,2025-12-13,Budget Cuts,7,1,24,No
+CUST-0387,Starter,Monthly,Legal,1-10,3,37.7,Referral,North America,2023-07-30,Yes,2023-12-10,Price Too High,11,1,46,No
+CUST-0388,Professional,Annual,Consulting,11-50,31,369.33,Partner,Asia Pacific,2023-05-25,No,,,11,4,66,No
+CUST-0389,Professional,Annual,Media,201-500,94,1003.89,Referral,Latin America,2024-06-27,No,,,7,7,62,No
+CUST-0390,Professional,Monthly,Manufacturing,201-500,38,517.45,Paid Ads,North America,2023-05-13,Yes,2024-07-27,Poor Support,4,4,44,No
+CUST-0391,Starter,Annual,Manufacturing,1-10,8,50.53,Paid Ads,Europe,2022-10-31,Yes,2024-06-10,No Longer Needed,2,6,17,No
+CUST-0392,Starter,Monthly,Media,11-50,19,107.3,Paid Ads,North America,2024-03-10,Yes,2024-05-06,Missing Features,9,5,18,No
+CUST-0393,Professional,Monthly,Media,51-200,39,529.3,Direct Sales,North America,2025-02-13,No,,,1,10,49,No
+CUST-0394,Professional,Annual,Real Estate,11-50,19,248.46,Organic Search,North America,2024-03-28,No,,,5,6,23,No
+CUST-0395,Business,Monthly,Finance,1-10,4,288.55,Organic Search,Europe,2024-03-12,No,,,0,4,39,No
+CUST-0396,Professional,Monthly,Education,1-10,7,150.1,Referral,Europe,2023-10-18,No,,,3,7,73,No
+CUST-0397,Starter,Annual,Real Estate,11-50,5,39.44,Organic Search,Europe,2024-08-14,Yes,2024-10-27,Company Closed,2,1,39,No
+CUST-0398,Business,Annual,Finance,500+,252,6537.65,Organic Search,North America,2023-04-28,Yes,2023-05-22,Price Too High,9,6,44,No
+CUST-0399,Business,Annual,Real Estate,201-500,86,2325.81,Paid Ads,North America,2023-10-10,Yes,2025-11-23,Switched Competitor,0,2,11,No
+CUST-0400,Starter,Annual,Education,1-10,5,39.44,Partner,North America,2022-07-29,Yes,2024-07-19,Budget Cuts,3,1,34,No
+CUST-0401,Business,Annual,Healthcare,1-10,7,321.38,Organic Search,North America,2024-11-06,No,,,9,9,30,No
+CUST-0402,Professional,Annual,Media,51-200,34,399.54,Referral,Europe,2022-04-04,Yes,2024-08-24,Company Closed,14,1,34,No
+CUST-0403,Business,Monthly,Consulting,1-10,8,407.95,Organic Search,North America,2023-01-22,Yes,2024-08-27,Poor Support,13,5,25,No
+CUST-0404,Business,Monthly,Healthcare,51-200,43,1452.7,Partner,North America,2025-09-25,No,,,4,5,79,No
+CUST-0405,Business,Monthly,Manufacturing,11-50,7,378.1,Paid Ads,North America,2025-02-23,No,,,11,1,29,Yes
+CUST-0406,Business,Monthly,Retail,51-200,29,1034.8,Direct Sales,North America,2023-02-22,Yes,2025-09-29,Missing Features,14,4,41,No
+CUST-0407,Professional,Annual,Consulting,500+,115,1215.41,Referral,Europe,2022-09-12,Yes,2023-04-03,Missing Features,7,4,48,No
+CUST-0408,Starter,Monthly,Finance,51-200,75,350.9,Paid Ads,North America,2025-10-14,No,,,10,8,92,No
+CUST-0409,Starter,Monthly,Manufacturing,1-10,8,59.45,Referral,North America,2025-04-01,Yes,2025-04-19,Poor Support,11,2,27,No
+CUST-0410,Professional,Monthly,Legal,201-500,125,1548.4,Referral,North America,2022-03-17,Yes,2023-06-19,Price Too High,14,4,12,No
+CUST-0411,Professional,Monthly,Finance,201-500,92,1157.35,Paid Ads,Europe,2024-08-28,Yes,2025-10-02,Price Too High,13,1,18,No
+CUST-0412,Professional,Monthly,Healthcare,51-200,45,600.4,Paid Ads,North America,2022-11-25,Yes,2023-05-25,No Longer Needed,8,4,24,No
+CUST-0413,Business,Annual,Real Estate,201-500,49,1387.03,Partner,Asia Pacific,2022-10-13,No,,,0,9,95,No
+CUST-0414,Business,Monthly,Real Estate,201-500,137,4258.6,Referral,Asia Pacific,2023-07-23,Yes,2024-08-12,Missing Features,15,1,25,No
+CUST-0415,Starter,Monthly,Retail,11-50,13,81.2,Social Media,Europe,2024-09-08,Yes,2024-10-15,Switched Competitor,7,3,45,No
+CUST-0416,Business,Annual,Manufacturing,11-50,14,498.99,Social Media,Europe,2025-02-18,Yes,2025-05-18,Missing Features,13,1,33,No
+CUST-0417,Starter,Annual,Real Estate,11-50,18,87.51,Organic Search,Latin America,2024-08-17,Yes,2024-10-30,Price Too High,10,1,36,No
+CUST-0418,Starter,Monthly,Consulting,1-10,2,33.35,Social Media,Latin America,2022-10-05,Yes,2023-07-03,Switched Competitor,11,1,37,No
+CUST-0419,Professional,Annual,Manufacturing,201-500,143,1497.45,Organic Search,Europe,2022-04-04,No,,,2,9,29,Yes
+CUST-0420,Professional,Monthly,Retail,1-10,8,161.95,Referral,North America,2022-03-07,Yes,2024-02-27,Missing Features,7,2,10,No
+CUST-0421,Professional,Monthly,Manufacturing,500+,185,2259.4,Paid Ads,North America,2022-09-26,Yes,2023-01-27,Poor Support,10,6,29,No
+CUST-0422,Professional,Monthly,Consulting,51-200,59,766.3,Social Media,North America,2023-04-14,No,,,3,7,92,Yes
+CUST-0423,Starter,Monthly,Manufacturing,11-50,15,89.9,Referral,Europe,2023-10-29,Yes,2024-06-25,Price Too High,4,5,20,No
+CUST-0424,Starter,Monthly,Media,1-10,5,46.4,Referral,Europe,2023-04-25,Yes,2024-08-21,Budget Cuts,11,6,50,No
+CUST-0425,Starter,Monthly,Technology,1-10,6,50.75,Referral,Asia Pacific,2025-03-15,Yes,2025-07-31,No Longer Needed,6,2,22,No
+CUST-0426,Business,Monthly,Education,1-10,7,378.1,Organic Search,North America,2024-03-06,No,,,10,10,68,Yes
+CUST-0427,Starter,Annual,Real Estate,51-200,79,313.05,Paid Ads,Latin America,2024-12-25,No,,,6,7,37,No
+CUST-0428,Starter,Monthly,Real Estate,11-50,11,72.5,Organic Search,North America,2025-10-18,No,,,1,4,24,No
+CUST-0429,Professional,Monthly,Media,11-50,15,244.9,Paid Ads,Europe,2025-06-09,No,,,8,5,32,No
+CUST-0430,Business,Monthly,Education,11-50,20,766.15,Referral,Europe,2025-11-05,No,,,2,9,39,No
+CUST-0431,Starter,Annual,Real Estate,11-50,27,120.78,Organic Search,Asia Pacific,2025-10-03,No,,,3,8,22,No
+CUST-0432,Professional,Annual,Education,51-200,28,339.11,Organic Search,North America,2025-05-10,No,,,2,1,51,No
+CUST-0433,Enterprise,Monthly,Real Estate,11-50,25,2295.4,Organic Search,North America,2023-08-13,Yes,2024-02-25,No Longer Needed,1,1,34,No
+CUST-0434,Starter,Annual,Real Estate,500+,222,841.8,Referral,North America,2022-10-17,Yes,2024-12-05,Poor Support,8,2,47,No
+CUST-0435,Starter,Monthly,Retail,1-10,4,42.05,Referral,Latin America,2023-02-09,Yes,2023-08-27,Poor Support,5,3,10,No
+CUST-0436,Business,Annual,Finance,51-200,48,1361.66,Paid Ads,Latin America,2022-12-11,Yes,2024-11-04,Company Closed,7,1,28,No
+CUST-0437,Starter,Monthly,Education,11-50,6,50.75,Referral,Asia Pacific,2023-04-10,Yes,2023-06-09,Poor Support,5,3,18,No
+CUST-0438,Starter,Annual,Technology,51-200,44,183.64,Paid Ads,Europe,2024-11-01,Yes,2024-11-03,Price Too High,5,6,31,No
+CUST-0439,Business,Monthly,Consulting,500+,62,2019.85,Direct Sales,Europe,2025-06-08,Yes,2025-07-18,Company Closed,9,4,34,No
+CUST-0440,Business,Annual,Healthcare,1-10,8,346.76,Referral,Latin America,2025-12-01,No,,,1,10,50,No
+CUST-0441,Professional,Annual,Real Estate,201-500,88,943.46,Paid Ads,North America,2023-08-13,Yes,2024-01-17,Switched Competitor,8,4,44,No
+CUST-0442,Business,Annual,Healthcare,51-200,54,1513.89,Paid Ads,Asia Pacific,2024-04-05,No,,,10,10,33,Yes
+CUST-0443,Professional,Monthly,Legal,51-200,58,754.45,Organic Search,North America,2023-06-28,No,,,11,5,84,No
+CUST-0444,Business,Monthly,Education,1-10,5,318.4,Organic Search,Latin America,2023-10-24,No,,,9,9,59,Yes
+CUST-0445,Starter,Monthly,Real Estate,500+,254,1129.55,Referral,North America,2025-05-02,No,,,2,7,42,No
+CUST-0446,Business,Monthly,Technology,51-200,30,1064.65,Paid Ads,Europe,2023-05-26,Yes,2024-03-13,Price Too High,10,3,44,No
+CUST-0447,Starter,Monthly,Technology,1-10,5,46.4,Direct Sales,Asia Pacific,2023-10-17,No,,,0,9,46,No
+CUST-0448,Business,Monthly,Education,11-50,31,1094.5,Paid Ads,North America,2025-01-01,No,,,1,9,69,No
+CUST-0449,Business,Monthly,Healthcare,500+,71,2288.5,Paid Ads,Europe,2024-02-12,Yes,2024-03-09,No Longer Needed,7,2,24,No
+CUST-0450,Professional,Annual,Retail,11-50,8,137.66,Partner,North America,2025-12-28,No,,,0,8,38,No
+CUST-0451,Business,Monthly,Legal,11-50,27,975.1,Partner,North America,2023-03-01,No,,,3,4,89,No
+CUST-0452,Professional,Monthly,Technology,11-50,12,209.35,Paid Ads,North America,2025-06-13,No,,,2,7,82,No
+CUST-0453,Starter,Monthly,Retail,1-10,1,29.0,Direct Sales,Latin America,2023-09-24,Yes,2023-10-21,Company Closed,2,1,27,No
+CUST-0454,Starter,Monthly,Media,1-10,1,29.0,Paid Ads,Europe,2025-07-09,Yes,2025-11-27,Budget Cuts,12,3,49,No
+CUST-0455,Starter,Monthly,Healthcare,11-50,8,59.45,Organic Search,Europe,2025-08-31,No,,,4,7,34,No
+CUST-0456,Professional,Annual,Education,1-10,4,97.37,Direct Sales,North America,2023-05-17,No,,,6,8,53,No
+CUST-0457,Professional,Annual,Legal,51-200,39,449.9,Direct Sales,Asia Pacific,2024-03-29,No,,,0,5,58,No
+CUST-0458,Business,Annual,Manufacturing,201-500,73,1995.97,Referral,North America,2025-04-02,No,,,12,1,15,Yes
+CUST-0459,Professional,Monthly,Real Estate,11-50,7,150.1,Partner,North America,2022-12-20,Yes,2023-11-02,Missing Features,5,2,12,No
+CUST-0460,Business,Annual,Finance,11-50,33,981.07,Partner,Asia Pacific,2023-02-07,No,,,1,8,89,No
+CUST-0461,Starter,Monthly,Education,1-10,3,37.7,Partner,Europe,2025-01-03,No,,,10,7,60,No
+CUST-0462,Professional,Annual,Education,1-10,5,107.44,Direct Sales,Europe,2025-06-09,No,,,2,9,82,No
+CUST-0463,Professional,Monthly,Education,11-50,5,126.4,Social Media,North America,2022-07-06,Yes,2022-10-08,No Longer Needed,1,2,17,No
+CUST-0464,Starter,Annual,Real Estate,51-200,59,239.1,Paid Ads,North America,2025-10-18,No,,,12,9,72,No
+CUST-0465,Professional,Monthly,Education,1-10,1,79.0,Direct Sales,Europe,2025-12-24,No,,,11,5,84,No
+CUST-0466,Business,Annual,Finance,51-200,35,1031.82,Paid Ads,Europe,2024-04-27,No,,,4,8,41,No
+CUST-0467,Starter,Annual,Healthcare,201-500,112,435.07,Referral,Latin America,2022-10-27,Yes,2023-06-19,Switched Competitor,12,1,34,No
+CUST-0468,Enterprise,Annual,Technology,11-50,10,996.75,Referral,North America,2024-05-12,No,,,3,1,64,No
+CUST-0469,Business,Annual,Media,1-10,3,219.9,Paid Ads,Europe,2025-12-19,No,,,8,2,45,No
+CUST-0470,Professional,Monthly,Real Estate,1-10,5,126.4,Direct Sales,North America,2024-10-12,Yes,2025-04-09,Budget Cuts,4,1,21,No
+CUST-0471,Business,Annual,Real Estate,51-200,62,1716.87,Paid Ads,North America,2023-09-22,Yes,2025-06-03,No Longer Needed,10,4,28,No
+CUST-0472,Starter,Annual,Real Estate,11-50,5,39.44,Partner,Asia Pacific,2022-08-31,Yes,2022-12-25,Poor Support,12,1,44,No
+CUST-0473,Starter,Monthly,Finance,51-200,48,233.45,Direct Sales,North America,2025-07-04,No,,,0,7,40,No
+CUST-0474,Professional,Annual,Real Estate,11-50,7,127.59,Referral,Europe,2022-11-15,Yes,2023-02-07,Missing Features,1,5,45,No
+CUST-0475,Professional,Annual,Real Estate,1-10,1,67.15,Paid Ads,North America,2025-12-28,No,,,11,6,30,No
+CUST-0476,Professional,Annual,Real Estate,1-10,2,77.22,Organic Search,Latin America,2025-06-14,No,,,1,3,15,No
+CUST-0477,Professional,Monthly,Technology,51-200,67,861.1,Direct Sales,Asia Pacific,2025-06-14,No,,,11,8,76,No
+CUST-0478,Business,Monthly,Retail,1-10,3,258.7,Paid Ads,Europe,2022-02-17,Yes,2024-06-28,Poor Support,1,1,11,No
+CUST-0479,Starter,Monthly,Healthcare,11-50,10,68.15,Paid Ads,North America,2023-11-06,Yes,2025-03-21,Missing Features,2,1,21,No
+CUST-0480,Business,Monthly,Manufacturing,11-50,5,318.4,Organic Search,Europe,2023-02-08,Yes,2023-02-16,Company Closed,8,6,34,No
+CUST-0481,Enterprise,Monthly,Legal,201-500,112,8807.35,Organic Search,Europe,2024-06-21,No,,,2,2,61,No
+CUST-0482,Professional,Annual,Education,11-50,27,329.03,Paid Ads,North America,2024-10-02,No,,,8,6,80,No
+CUST-0483,Starter,Annual,Education,11-50,6,43.14,Paid Ads,North America,2022-02-22,Yes,2022-08-11,Company Closed,6,1,21,No
+CUST-0484,Business,Monthly,Legal,11-50,29,1034.8,Organic Search,Europe,2023-05-26,Yes,2023-06-18,Poor Support,7,3,32,No
+CUST-0485,Professional,Annual,Finance,1-10,2,77.22,Organic Search,Europe,2023-09-13,Yes,2025-03-29,Budget Cuts,7,1,30,No
+CUST-0486,Starter,Monthly,Healthcare,51-200,25,133.4,Partner,Asia Pacific,2024-11-29,Yes,2025-01-28,Budget Cuts,10,4,29,No
+CUST-0487,Starter,Monthly,Real Estate,1-10,7,55.1,Social Media,Europe,2024-07-12,Yes,2025-10-03,Missing Features,8,3,50,No
+CUST-0488,Business,Annual,Education,1-10,7,321.38,Partner,North America,2022-09-21,No,,,2,6,84,No
+CUST-0489,Professional,Monthly,Consulting,11-50,24,351.55,Referral,Asia Pacific,2023-07-30,Yes,2025-05-02,No Longer Needed,15,5,26,No
+CUST-0490,Enterprise,Monthly,Media,1-10,6,873.25,Referral,North America,2022-03-27,Yes,2025-02-22,Company Closed,11,3,19,No
+CUST-0491,Starter,Monthly,Manufacturing,201-500,121,551.0,Social Media,Europe,2024-06-01,Yes,2025-04-06,Price Too High,2,6,23,No
+CUST-0492,Professional,Monthly,Finance,1-10,4,114.55,Referral,Europe,2022-12-04,Yes,2025-03-31,Company Closed,15,1,27,No
+CUST-0493,Starter,Annual,Finance,51-200,73,290.87,Organic Search,North America,2025-10-06,No,,,3,7,57,No
+CUST-0494,Business,Monthly,Retail,500+,199,6109.3,Partner,North America,2022-05-30,Yes,2025-09-19,Missing Features,13,4,26,No
+CUST-0495,Business,Monthly,Healthcare,11-50,21,796.0,Paid Ads,Asia Pacific,2022-08-10,Yes,2023-12-09,No Longer Needed,4,1,13,No
+CUST-0496,Starter,Annual,Finance,1-10,4,35.74,Referral,Europe,2023-06-27,Yes,2023-09-11,Price Too High,1,1,39,No
+CUST-0497,Enterprise,Monthly,Legal,1-10,4,723.55,Paid Ads,North America,2024-02-03,No,,,0,6,47,No
+CUST-0498,Business,Annual,Education,11-50,5,270.64,Social Media,Europe,2025-12-24,No,,,3,5,48,No
+CUST-0499,Business,Monthly,Education,11-50,15,616.9,Referral,North America,2025-03-06,No,,,11,10,37,No
+CUST-0500,Professional,Monthly,Media,51-200,71,908.5,Referral,North America,2025-11-28,No,,,4,5,70,No
+CUST-0501,Starter,Annual,Education,500+,144,553.39,Partner,North America,2023-07-30,Yes,2024-01-28,Company Closed,6,3,45,No
+CUST-0502,Professional,Annual,Retail,11-50,32,379.4,Referral,Europe,2024-10-28,No,,,5,9,36,No
+CUST-0503,Enterprise,Annual,Real Estate,11-50,23,1823.84,Organic Search,Latin America,2025-01-20,No,,,10,7,16,No
+CUST-0504,Starter,Monthly,Retail,11-50,15,89.9,Organic Search,Europe,2025-04-12,Yes,2025-05-08,Budget Cuts,14,3,26,No
+CUST-0505,Business,Monthly,Technology,51-200,49,1631.8,Referral,North America,2022-05-12,Yes,2023-08-04,Budget Cuts,10,6,16,No
+CUST-0506,Starter,Monthly,Technology,11-50,26,137.75,Organic Search,Latin America,2024-11-08,Yes,2025-08-25,No Longer Needed,12,2,26,No
+CUST-0507,Business,Annual,Manufacturing,11-50,35,1031.82,Partner,North America,2025-04-21,No,,,2,6,70,Yes
+CUST-0508,Starter,Annual,Finance,51-200,54,220.62,Referral,Asia Pacific,2022-03-10,Yes,2022-11-09,Company Closed,3,2,33,No
+CUST-0509,Starter,Monthly,Education,500+,56,268.25,Referral,Latin America,2023-05-12,Yes,2023-07-04,Switched Competitor,12,2,17,No
+CUST-0510,Business,Monthly,Education,11-50,27,975.1,Referral,Asia Pacific,2024-08-26,Yes,2025-04-07,Switched Competitor,9,2,24,No
+CUST-0511,Professional,Monthly,Education,11-50,25,363.4,Paid Ads,North America,2025-09-23,No,,,6,4,30,No
+CUST-0512,Starter,Annual,Consulting,51-200,26,117.09,Referral,Europe,2023-01-17,Yes,2023-06-08,Budget Cuts,15,2,36,No
+CUST-0513,Professional,Annual,Education,1-10,8,137.66,Referral,North America,2024-01-20,Yes,2024-02-01,Company Closed,6,5,13,No
+CUST-0514,Business,Monthly,Finance,201-500,68,2198.95,Paid Ads,Latin America,2024-01-27,Yes,2024-06-19,Budget Cuts,15,1,19,No
+CUST-0515,Enterprise,Monthly,Finance,1-10,2,573.85,Organic Search,North America,2022-04-01,No,,,7,8,28,No
+CUST-0516,Business,Monthly,Education,51-200,42,1422.85,Partner,Europe,2024-11-16,No,,,10,2,17,No
+CUST-0517,Professional,Monthly,Healthcare,51-200,59,766.3,Social Media,Europe,2024-04-30,Yes,2024-10-14,Company Closed,12,4,42,No
+CUST-0518,Starter,Annual,Manufacturing,11-50,21,98.6,Paid Ads,North America,2025-05-20,No,,,4,7,71,No
+CUST-0519,Business,Annual,Media,11-50,34,1006.44,Paid Ads,Asia Pacific,2022-08-18,No,,,10,4,84,No
+CUST-0520,Professional,Monthly,Healthcare,11-50,31,434.5,Paid Ads,Europe,2022-06-12,Yes,2024-04-30,Switched Competitor,10,4,20,No
+CUST-0521,Enterprise,Monthly,Finance,1-10,4,723.55,Organic Search,Asia Pacific,2024-08-01,Yes,2025-05-10,Company Closed,5,6,31,No
+CUST-0522,Enterprise,Monthly,Technology,1-10,7,948.1,Direct Sales,Asia Pacific,2023-06-26,No,,,0,5,83,No
+CUST-0523,Business,Monthly,Healthcare,1-10,7,378.1,Partner,Europe,2024-01-07,Yes,2025-04-26,Missing Features,0,1,36,No
+CUST-0524,Professional,Monthly,Media,51-200,59,766.3,Partner,North America,2022-02-07,No,,,2,7,51,No
+CUST-0525,Enterprise,Annual,Manufacturing,1-10,1,424.15,Paid Ads,Latin America,2022-08-01,No,,,2,1,65,No
+CUST-0526,Professional,Monthly,Real Estate,1-10,8,161.95,Paid Ads,Latin America,2023-05-01,Yes,2023-06-24,Budget Cuts,3,1,27,No
+CUST-0527,Business,Annual,Media,201-500,50,1412.4,Paid Ads,Europe,2025-10-13,No,,,12,5,91,No
+CUST-0528,Starter,Monthly,Legal,1-10,7,55.1,Referral,Asia Pacific,2023-12-16,Yes,2025-08-02,Company Closed,6,3,36,No
+CUST-0529,Business,Annual,Consulting,51-200,49,1387.03,Referral,Latin America,2025-02-26,No,,,12,9,82,No
+CUST-0530,Enterprise,Monthly,Legal,11-50,31,2744.5,Partner,Europe,2023-04-28,No,,,11,3,15,No
+CUST-0531,Professional,Monthly,Real Estate,11-50,20,304.15,Organic Search,North America,2023-08-12,No,,,10,1,76,No
+CUST-0532,Starter,Annual,Legal,51-200,67,268.69,Partner,Asia Pacific,2024-08-19,No,,,3,6,55,No
+CUST-0533,Enterprise,Monthly,Healthcare,201-500,85,6786.4,Direct Sales,Europe,2024-07-17,No,,,4,7,54,Yes
+CUST-0534,Starter,Monthly,Real Estate,1-10,2,33.35,Organic Search,Asia Pacific,2023-06-17,Yes,2023-07-27,Company Closed,13,2,17,No
+CUST-0535,Enterprise,Annual,Finance,201-500,52,3668.9,Referral,Europe,2024-07-25,No,,,9,7,93,No
+CUST-0536,Starter,Annual,Real Estate,51-200,58,235.41,Social Media,Asia Pacific,2022-11-05,Yes,2022-11-06,Company Closed,4,5,20,No
+CUST-0537,Starter,Monthly,Legal,11-50,26,137.75,Paid Ads,North America,2023-06-14,Yes,2023-06-14,Price Too High,0,3,23,No
+CUST-0538,Professional,Monthly,Real Estate,1-10,8,161.95,Paid Ads,Europe,2025-05-04,Yes,2025-08-08,Price Too High,5,2,49,No
+CUST-0539,Business,Annual,Healthcare,51-200,20,651.23,Social Media,North America,2024-05-25,No,,,8,9,90,No
+CUST-0540,Starter,Monthly,Consulting,51-200,68,320.45,Paid Ads,North America,2024-09-04,Yes,2025-05-10,No Longer Needed,9,4,50,No
+CUST-0541,Professional,Monthly,Manufacturing,201-500,30,422.65,Referral,North America,2023-08-28,Yes,2024-11-10,Budget Cuts,8,1,50,No
+CUST-0542,Starter,Monthly,Education,11-50,28,146.45,Direct Sales,North America,2025-10-24,No,,,7,1,91,No
+CUST-0543,Enterprise,Annual,Real Estate,1-10,1,424.15,Partner,North America,2022-11-05,Yes,2025-05-10,No Longer Needed,9,3,24,No
+CUST-0544,Business,Annual,Real Estate,11-50,16,549.74,Referral,Europe,2023-12-30,No,,,4,3,25,No
+CUST-0545,Starter,Monthly,Technology,1-10,1,29.0,Referral,Europe,2022-05-04,Yes,2022-12-14,Price Too High,14,2,10,No
+CUST-0546,Professional,Monthly,Technology,11-50,11,197.5,Direct Sales,Asia Pacific,2023-09-12,Yes,2024-04-25,Company Closed,12,2,10,No
+CUST-0547,Enterprise,Monthly,Retail,1-10,2,573.85,Organic Search,North America,2023-01-10,Yes,2025-02-18,Poor Support,10,3,22,No
+CUST-0548,Business,Monthly,Media,11-50,31,1094.5,Paid Ads,Asia Pacific,2022-11-24,No,,,1,6,49,No
+CUST-0549,Starter,Annual,Legal,11-50,30,131.88,Partner,North America,2022-03-20,Yes,2022-04-05,Company Closed,7,1,28,No
+CUST-0550,Starter,Monthly,Technology,11-50,31,159.5,Organic Search,Asia Pacific,2024-04-25,Yes,2024-09-02,No Longer Needed,1,6,33,No
+CUST-0551,Professional,Annual,Consulting,500+,187,1940.63,Paid Ads,North America,2025-10-08,No,,,1,3,53,No
+CUST-0552,Starter,Monthly,Education,11-50,9,63.8,Direct Sales,North America,2025-03-10,No,,,9,3,22,No
+CUST-0553,Starter,Annual,Technology,201-500,135,520.12,Social Media,Asia Pacific,2024-10-01,No,,,10,4,86,No
+CUST-0554,Starter,Annual,Manufacturing,51-200,39,165.16,Paid Ads,North America,2022-02-17,Yes,2022-09-10,Company Closed,8,6,18,No
+CUST-0555,Business,Annual,Retail,11-50,29,879.58,Referral,North America,2022-07-28,No,,,2,5,71,No
+CUST-0556,Business,Monthly,Consulting,500+,182,5601.85,Paid Ads,Latin America,2025-07-25,Yes,2025-07-28,Company Closed,4,1,21,No
+CUST-0557,Starter,Monthly,Finance,201-500,82,381.35,Referral,North America,2025-10-11,No,,,1,6,33,No
+CUST-0558,Business,Monthly,Education,201-500,74,2378.05,Organic Search,Europe,2025-04-25,No,,,0,9,71,Yes
+CUST-0559,Professional,Annual,Healthcare,11-50,30,359.25,Partner,North America,2022-11-27,Yes,2023-09-11,Budget Cuts,11,1,26,No
+CUST-0560,Starter,Monthly,Legal,11-50,6,50.75,Organic Search,Asia Pacific,2024-08-12,Yes,2025-06-24,Price Too High,9,1,45,No
+CUST-0561,Enterprise,Monthly,Legal,11-50,17,1696.6,Organic Search,Asia Pacific,2023-07-21,No,,,9,3,41,No
+CUST-0562,Business,Monthly,Healthcare,51-200,30,1064.65,Referral,North America,2025-10-12,No,,,6,10,17,No
+CUST-0563,Starter,Monthly,Technology,1-10,8,59.45,Organic Search,Asia Pacific,2024-11-09,Yes,2025-05-14,Switched Competitor,3,5,27,No
+CUST-0564,Professional,Monthly,Technology,1-10,8,161.95,Paid Ads,Europe,2025-03-17,No,,,10,10,78,No
+CUST-0565,Business,Monthly,Manufacturing,1-10,6,348.25,Referral,Asia Pacific,2023-10-27,Yes,2025-11-02,Price Too High,10,1,19,No
+CUST-0566,Professional,Monthly,Real Estate,1-10,8,161.95,Organic Search,Europe,2022-08-24,Yes,2022-09-23,Budget Cuts,1,3,15,No
+CUST-0567,Starter,Annual,Manufacturing,11-50,27,120.78,Direct Sales,Europe,2024-06-22,Yes,2024-08-18,Budget Cuts,10,4,11,No
+CUST-0568,Starter,Annual,Education,51-200,50,205.83,Referral,North America,2025-05-25,No,,,5,8,66,No
+CUST-0569,Professional,Monthly,Healthcare,11-50,13,221.2,Organic Search,Europe,2025-05-31,No,,,5,5,53,No
+CUST-0570,Business,Annual,Technology,11-50,23,727.34,Organic Search,North America,2024-05-07,No,,,2,5,19,No
+CUST-0571,Starter,Monthly,Legal,1-10,2,33.35,Referral,North America,2022-02-06,Yes,2022-02-14,Switched Competitor,15,1,15,No
+CUST-0572,Starter,Monthly,Manufacturing,1-10,3,37.7,Social Media,Asia Pacific,2022-11-08,Yes,2023-08-16,Switched Competitor,6,5,33,No
+CUST-0573,Professional,Annual,Consulting,51-200,34,399.54,Partner,Asia Pacific,2022-08-16,No,,,6,5,39,No
+CUST-0574,Enterprise,Monthly,Education,51-200,78,6262.45,Paid Ads,North America,2023-10-05,No,,,1,9,50,Yes
+CUST-0575,Business,Annual,Consulting,51-200,38,1107.93,Referral,North America,2025-11-09,No,,,11,8,26,No
+CUST-0576,Starter,Annual,Manufacturing,1-10,4,35.74,Partner,North America,2024-05-26,Yes,2024-06-14,Price Too High,1,5,35,No
+CUST-0577,Starter,Annual,Finance,201-500,123,475.74,Paid Ads,North America,2022-08-18,Yes,2023-08-30,Price Too High,5,3,22,No
+CUST-0578,Professional,Monthly,Education,500+,74,944.05,Organic Search,North America,2024-03-08,Yes,2025-10-26,Missing Features,9,3,38,No
+CUST-0579,Professional,Monthly,Finance,11-50,9,173.8,Direct Sales,North America,2025-09-22,No,,,8,8,74,No
+CUST-0580,Professional,Monthly,Education,201-500,33,458.2,Referral,North America,2024-03-20,Yes,2024-09-30,Price Too High,13,2,39,No
+CUST-0581,Business,Monthly,Technology,201-500,105,3303.4,Direct Sales,Asia Pacific,2024-11-10,No,,,0,8,75,Yes
+CUST-0582,Professional,Monthly,Consulting,11-50,35,481.9,Partner,North America,2023-11-19,Yes,2025-07-16,Poor Support,0,2,32,No
+CUST-0583,Professional,Monthly,Finance,1-10,4,114.55,Social Media,North America,2025-06-17,Yes,2025-06-19,Price Too High,3,5,50,No
+CUST-0584,Business,Monthly,Media,11-50,18,706.45,Organic Search,North America,2025-10-26,No,,,0,1,37,No
+CUST-0585,Business,Monthly,Technology,11-50,5,318.4,Direct Sales,North America,2023-11-16,No,,,0,4,77,Yes
+CUST-0586,Starter,Monthly,Healthcare,201-500,116,529.25,Paid Ads,North America,2025-10-11,No,,,6,3,68,No
+CUST-0587,Business,Monthly,Technology,1-10,1,199.0,Referral,Latin America,2022-09-04,No,,,2,6,84,Yes
+CUST-0588,Business,Monthly,Retail,11-50,33,1154.2,Organic Search,Latin America,2023-01-17,Yes,2025-07-19,Switched Competitor,1,3,37,No
+CUST-0589,Starter,Annual,Healthcare,1-10,7,46.83,Referral,Latin America,2023-11-21,Yes,2024-07-08,Budget Cuts,11,1,18,No
+CUST-0590,Starter,Monthly,Consulting,11-50,21,116.0,Organic Search,Latin America,2023-09-20,Yes,2023-11-21,No Longer Needed,11,3,16,No
+CUST-0591,Business,Monthly,Technology,11-50,6,348.25,Organic Search,North America,2023-11-22,No,,,1,2,27,Yes
+CUST-0592,Professional,Monthly,Media,11-50,6,138.25,Partner,Europe,2022-10-02,Yes,2024-02-13,Poor Support,5,3,11,No
+CUST-0593,Business,Monthly,Real Estate,51-200,47,1572.1,Organic Search,North America,2023-02-07,No,,,1,9,27,No
+CUST-0594,Business,Annual,Legal,51-200,76,2072.09,Organic Search,Asia Pacific,2022-12-14,Yes,2023-04-10,Price Too High,4,2,35,No
+CUST-0595,Business,Monthly,Manufacturing,11-50,11,497.5,Organic Search,Europe,2023-04-11,Yes,2024-11-14,Missing Features,3,3,48,No
+CUST-0596,Professional,Annual,Healthcare,11-50,32,379.4,Referral,North America,2024-12-05,No,,,3,6,65,Yes
+CUST-0597,Professional,Annual,Technology,201-500,106,1124.76,Direct Sales,Europe,2023-06-25,No,,,3,3,57,No
+CUST-0598,Starter,Monthly,Technology,201-500,84,390.05,Organic Search,Latin America,2023-09-05,No,,,3,4,67,No
+CUST-0599,Professional,Annual,Retail,11-50,18,238.38,Organic Search,North America,2023-06-30,No,,,11,4,50,No
+CUST-0600,Starter,Monthly,Media,500+,87,403.1,Partner,Europe,2025-11-15,No,,,10,10,70,No

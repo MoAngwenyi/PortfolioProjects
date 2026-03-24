@@ -4,7 +4,13 @@
 CloudTask Pro is a SaaS company that has grown from 0 to 600 customers since 2022. While revenue has been growing, the board has raised concerns about a high churn rate. The CFO wants to understand the monthly churn trends, which customer segments are most at risk, and what the company’s unit economics look like (MRR per customer, customer acquisition cost vs. lifetime value). You have access to a subscription-level dataset with customer details, plan info, and churn status, as well as a monthly revenue summary.
 
 
+### Business Problem
+1. What is the overall churn rate, and how has the monthly churn rate trended over the past 4 years? Is churn improving or getting worse?
+2. Which subscription plan (Starter, Professional, Business, Enterprise) has the highest churn rate? Does billing cycle (monthly vs. annual) significantly impact retention?
+3. What are the top 3 reasons customers churn, and do these reasons differ by plan type or company size?
+4. Calculate the average Customer Lifetime Value (CLV) by plan. Compare this to the Customer Acquisition Cost (CAC). Which plans are the most and least profitable?
 
+   
 ### Data Structure 
 
 ![saasdata model](https://github.com/user-attachments/assets/8f9f1b0b-a2ff-4700-977d-797dec32f596)
@@ -14,12 +20,14 @@ The dataset has two workbooks
 
 2) subscriptions - customer id,	plan,	billing cycle,	industry,	company size,	seats,	monthly revenue,	acquisition channel, region, signup date,	churned,	churn date,	churn reason,	support tickets 12mo,	nps score,	feature usage pct,	upgraded, churn flag, customer lifespan, nps category,feature usage category, at risk customer.
 
-### Tech Stack
-- Excel - data cleaning.
-- Power BI 
-- DAX - At Risk Customers, Churn Rate, Avg Lifespan, Net Revenue Retention(NRR).
 
+### Methodology
+- Excel for cleaning data.
+- Power BI for writing functions, creating new measures and columns, and building a dashboard. 
 
+### Skills
+- Excel
+- Power BI
 
 ## 📌 Overview of Findings
 ## Churn Analysis
@@ -27,20 +35,26 @@ The dataset has two workbooks
 ![saas1](https://github.com/user-attachments/assets/57d44ed7-c8df-4d25-83b6-f6cb092f7471)
 
 
-CloudTask Pro's overall churn rate stands at 52%, with 313 of 600 customers leaving since 2022 — a figure that demands attention but tells only part of the story. The yearly trend reveals a more encouraging picture: churn has declined consistently from 76% in 2022 to 23% in 2025, suggesting that retention efforts are gaining traction even as the cumulative damage remains significant. Drilling into the segments exposes where the problem is concentrated. Monthly billing customers churn at 60.5% compared to 40.3% for annual subscribers, indicating that longer commitment cycles are a meaningful retention lever. By plan, Starter (71%) and Professional (48%) tiers carry the heaviest churn burden, pointing to potential gaps in value delivery or onboarding at the entry level. Acquisition channel tells an equally important story — referral (61%) and partner (58%) channels produce the highest churn, while direct sales (39%) retains customers most effectively, suggesting a quality-versus-volume tradeoff in how customers are being acquired. Regionally, Latin America (62%) and Europe (55%) show elevated churn compared to North America (49%), hinting at localization or support gaps in those markets. Across industries, Real Estate (61%) and Finance (59%) are most at risk, while Technology (45%) shows comparatively stronger retention — likely reflecting better product-market fit in tech-native segments.
+CloudTask Pro's overall churn rate stands at 52%, with 313 of 600 customers leaving since 2022. The yearly trend reveals a more encouraging picture: churn has declined consistently from 76% in 2022 to 23% in 2025, suggesting that retention efforts are gaining traction even as the cumulative damage remains significant. Drilling into the segments exposes where the problem is concentrated. Monthly billing customers churn at 60.5% compared to 40.3% for annual subscribers, indicating that longer commitment cycles are a meaningful retention lever. 
+By plan, Starter (71%) and Professional (48%) tiers carry the heaviest churn burden, pointing to potential gaps in value delivery or onboarding at the entry level. 
+Acquisition channel tells an equally important story — referral (61%) and partner (58%) channels produce the highest churn, while direct sales (39%) retains customers most effectively, suggesting a quality-versus-volume tradeoff in how customers are being acquired. Regionally, Latin America (62%) and Europe (55%) show elevated churn compared to North America (49%), hinting at localization or support gaps in those markets. Across industries, Real Estate (61%) and Finance (59%) are most at risk, while Technology (45%) shows comparatively stronger retention — likely reflecting better product-market fit in tech-native segments.
 
 ## Revenue 
 ![saas2](https://github.com/user-attachments/assets/4947cf0e-5f3c-4a04-96cb-01121e86bb93)
 
 
-On the surface, CloudTask Pro's revenue story looks compelling — total revenue of $490,593, a CLV of $663 against a CAC of $200.04, and an MRR trend that has grown steadily from near zero in January 2022 to approximately $0.3M by mid-2025, reflecting consistent business expansion over three and a half years. The CLV:CAC ratio of roughly 3.3:1 sits at the lower end of the healthy benchmark range for SaaS, meaning the business is acquiring customers efficiently but has limited room for error — any increase in acquisition costs or further churn would compress that ratio quickly. The CLV vs CAC by plan chart exposes a significant structural risk: Enterprise customers generate CLV approaching $4K, dwarfing Starter and Professional tiers which contribute marginally above CAC, meaning the business is heavily dependent on a small segment of high-value customers to sustain its unit economics. Monthly Net Revenue Retention tells a more concerning story — the sharp, erratic spikes throughout the period suggest revenue is being driven by irregular expansion events rather than stable, compounding growth, which aligns with the high churn observed on the previous page. ARPU shows a dramatic early spike in 2022 followed by stabilization around $1,000, suggesting the initial customer base skewed toward higher-value plans before lower-tier acquisitions diluted the average — a pattern worth monitoring as the company scales.
+On the surface, CloudTask Pro's revenue story looks compelling — total revenue of $490,593, with a CLV of $663 against a CAC of $200.04, and an MRR trend that has grown steadily from near zero in January 2022 to approximately $0.3M by mid-2025, reflecting consistent business expansion over three and a half years. 
+The CLV:CAC ratio of roughly 3.3:1 sits at a healthy benchmark range for SaaS, meaning the business is acquiring customers efficiently but has limited room for error as any increase in acquisition costs or further churn would compress that ratio quickly. 
+The CLV vs CAC by plan chart exposes a significant structural risk: Enterprise customers generate CLV approaching $4K, compared to Starter and Professional tiers which contribute marginally above CAC, meaning the business is heavily dependent on a small segment of high-value customers to sustain its unit economics. 
+Monthly Net Revenue Retention tells a more concerning story — the sharp, erratic spikes throughout the period suggest revenue is being driven by irregular expansion events rather than stable, compounding growth, which aligns with the high churn observed on the previous page. ARPU shows a dramatic early spike in 2022 followed by stabilization around $1,000, suggesting the initial customer base skewed toward higher-value plans before lower-tier acquisitions diluted the average — a pattern worth monitoring as the company scales.
 
 
 ## Customer Engagement
 
 ![saas3](https://github.com/user-attachments/assets/74a9c81e-f7e8-4d3a-8475-7136f859f0b9)
 
-The customer engagement data brings the retention risk into sharp focus — 223 customers, representing 37% of the total base, are currently classified as at risk, with $156,079 in revenue directly exposed. The most striking finding on this page is the relationship between feature usage and churn: customers with low feature usage churn at 80% while high usage customers show near-zero churn, making product adoption the single strongest predictor of retention across the entire analysis. This is reinforced by the NPS data, where detractors churn at 70% while passives and promoters show virtually no churn — confirming that both behavioral engagement and customer sentiment are critical early warning signals. The Feature Usage vs Churn Rate visual underscores the urgency: average feature usage sits at just 6.5 against an average churn rate of 40.6, suggesting the majority of the customer base is underutilizing the product and sitting squarely in the high-risk zone. From an acquisition perspective, referral (59) and organic search (45) channels contribute the largest volumes of at-risk customers, echoing the churn page finding that these channels attract lower-quality or less engaged users despite driving volume. By plan, Starter (45%) and Professional (35%) carry the highest concentration of at-risk customers, tying all three pages together into one consistent narrative — lower-tier, low-engagement customers acquired through referral channels represent the core retention problem CloudTask Pro needs to solve.
+The customer engagement data brings the retention risk into sharp focus — 223 customers, representing 37% of the total base, are currently classified as at risk, with $156,079 in revenue directly exposed. The most striking finding on this page is the relationship between feature usage and churn: customers with low feature usage churn at 80% while high usage customers show near-zero churn, making product adoption the single strongest predictor of retention across the entire analysis. This is reinforced by the NPS data, where detractors churn at 70% while passives and promoters show virtually no churn — confirming that both behavioral engagement and customer sentiment are critical early warning signals. 
+The Feature Usage vs Churn Rate visual underscores the urgency: average feature usage sits at just 6.5 against an average churn rate of 40.6, suggesting the majority of the customer base is underutilizing the product and sitting squarely in the high-risk zone. From an acquisition perspective, referral (59) and organic search (45) channels contribute the largest volumes of at-risk customers, echoing the churn page finding that these channels attract lower-quality or less engaged users despite driving volume. By plan, Starter (45%) and Professional (35%) carry the highest concentration of at-risk customers, tying all three pages together into one consistent narrative — lower-tier, low-engagement customers acquired through referral channels represent the core retention problem CloudTask Pro needs to solve.
 
 
 ## Recommendations

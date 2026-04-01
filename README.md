@@ -10,6 +10,7 @@ Each project in this repository reflects real-world business scenarios — from 
 - **Glow Skin - E-commerce Sales & Retail Analysis** – E-commerce performance analytics dashboard using Power BI. 
 - **EdTech Course Performance & Growth Analysis (SQL EDA)** – SQL-driven insights on learner engagement and course revenue.
 - **Python Data Analysis - Bank Transactions PYTHON EDA** - Python-based data analysis projects demonstrating data cleaning, exploratory analysis, and automation of analytical workflows using Pandas, NumPy, Matplotlib and Seaborn.
+- **Saas Revenue & Churn Analysis** - Saas revenue and churn analysis on a saas company to recognize key insights on monthly and annual revenues, chrun customers, revenue and at risk customers using Excel and Power Bi.
 ## 🛠️ Tools & Technologies
 
 - SQL (MySQL, PostgreSQL)

@@ -2,8 +2,9 @@
 
 Welcome to my **Data Analytics Portfolio Projects** repository!  
 ## 👩🏽‍💻 About Me
-I'm Brenda Angwenyi, a Data Analyst & Business Intelligence Consultant specializing in transforming complex business,customer and operational data into actionable insights that drive strategic decision making. Experienced in marketing(e-commerce/Saas), operations, and product analysis. Skilled in KPI design, dashboard development, data modelling, and cross-functional collaboration across various teams.
-Armed with a background in project management (PMP-certified) and a strong command of tools like Power BI, Excel, SQL, Python, and Tableau.
+I'm Brenda Angwenyi, a Data Analyst & Business Intelligence Consultant specializing in transforming complex business,customer and operational data into actionable insights that drive strategic decision making. Experienced in marketing(e-commerce/Saas), operations, and product analysis. 
+- Skilled in KPI design, dashboard development, data modelling, and cross-functional collaboration across various teams.
+- Armed with a background in project management (PMP-certified) and a strong command of tools like Power BI, Excel, SQL, Python, and Tableau.
 I'm adept at supporting end-to-end analytics cycles from requirements gathering and data extraction to visualization,reporting automation and insight storytelling.
 Each project in this repository reflects real-world business scenarios — e-commerce skincare sales analysis dashboard, revenue and churn analysis dashboard etc.
 ### Projects

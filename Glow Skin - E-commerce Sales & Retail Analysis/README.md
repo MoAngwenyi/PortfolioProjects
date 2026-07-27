@@ -20,6 +20,15 @@ The companies main database structure as seen below consists of three tables: Cu
 
 <img width="1005" height="496" alt="updatedglowmodel" src="https://github.com/user-attachments/assets/be7635e7-687d-4147-bd3e-3f815dd9be45" />
 
+## 🛠️ Tech Stack
+Tool	Purpose
+Power BI Desktop	Dashboard development, DAX measures, interactive visuals
+Power Query (M)	Data cleaning, transformation and structuring
+DAX	KPI calculations and dynamic measures
+PowerPoint	Custom layout wireframing before Power BI build
+Power BI Service	Dashboard publishing and sharing
+
+## 📊 Key Performance Indicators
 
 # Executive Summary
 

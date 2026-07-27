@@ -18,9 +18,7 @@ I used Power BI to create the dashboard.
 The companies main database structure as seen below consists of three tables: Customers,Orders,Inventory, Web Traffic, Marketing Spend, Returns and Products with a total row count of 10,000 sales records.
 
 
-
-<img width="1010" height="476" alt="glowskin data model" src="https://github.com/user-attachments/assets/603521b5-98d6-4f2c-b5e2-d343a0b4dd94" />
-
+<img width="1005" height="496" alt="updatedglowmodel" src="https://github.com/user-attachments/assets/be7635e7-687d-4147-bd3e-3f815dd9be45" />
 
 
 # Executive Summary
@@ -36,10 +34,10 @@ Highest refund rates appear in Skincare and Fragrance categories. Nearly 1 in 10
 - CAC vs AOV by Channel shows wide variation. Some channels approach parity between CAC and AOV, others significantly exceed it.
 Not all channels generate economically viable customers at the same cost.
   
-- The Power BI link: [Glow Skin Dashboard](https://app.powerbi.com/view?r=eyJrIjoiN2RhYzBjMGEtZGYxZi00ZmU3LTllZGMtZTczYjM5MDM5YzYyIiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9) 
-  
+- The Power BI link: [Glowskin Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMThjNTQ1MjQtODU0OC00NmYxLTk4ZGUtMjFjZjhlMDQ4Nzk3IiwidCI6ImUzNDk3ZTRjLWU2NDItNDhlNi1iNTkzLWQzZTQ0MDkwZmY5ZSJ9)
 
-![gsk1](https://github.com/user-attachments/assets/70d0bc89-0ab9-4abb-8f39-a7cbc537f6b1)
+
+<img width="902" height="502" alt="updatedglow1" src="https://github.com/user-attachments/assets/99713b50-b93c-4e7f-9477-52b61e74a710" />
 
 
 ## 📌 Orders Overview
@@ -51,8 +49,8 @@ Not all channels generate economically viable customers at the same cost.
 - Website dominates revenue in terms of channel at KES 85,835,202.06 . Core revenue is website-channel driven → strong brand control, lower dependency risk.
 - Organic is most cost-efficient CAC by channel at KES 23, 195.04. organic is the strongest efficiency lever.
 
+<img width="908" height="500" alt="updatedglow2" src="https://github.com/user-attachments/assets/997e2f19-9cdd-4474-8cb5-a2f5a302355b" />
 
-![gsk2](https://github.com/user-attachments/assets/4d5d41bd-a9d1-4506-9fb9-e2b3634c57a8)
 
 ## 📌 Products Overview
 - Fragrance is the top revenue driver at KES 25,168,541 while Bodycare & Skincare closely follow at KES 22,393,899 and KES 21,865,501 respectively. Makeup generates the lowest revenue share at KES 16,458,209.
@@ -61,7 +59,8 @@ Not all channels generate economically viable customers at the same cost.
 - 19.61K Average Inventory Value tells us capital not excessively tied in inventory.
 - Total Revenue of the 10 top products is KES 7,270,436.10.Island Breeze Eau de Toilette is the most profitable KES 987,104.47 with a refund rate of 0.06 closely followed by GlowSkin HydraSerum at KES 795,671.83 with a refund rate of 0.04 while the 10th most profitable product is Berry Burst Body Lotion KES 610,530.32.
 
-![gsk3](https://github.com/user-attachments/assets/850f5ed0-afbb-445a-8e4b-9f5c4183cc1f)
+<img width="900" height="507" alt="updatedglow3" src="https://github.com/user-attachments/assets/e5ae759b-c500-4576-b489-cd3001e0d663" />
+
 
 # Recommendations:
 Based on the insights and findings above, we would recommend the executive and marketing/ product departments to consider the following:
